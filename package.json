@@ -25,7 +25,7 @@
     "fragrance-library",
     "scentbird"
   ],
-  "author": "Your Name",
+  "author": "Asif Nawaz <iamasifnawaz@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
