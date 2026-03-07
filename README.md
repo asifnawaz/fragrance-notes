@@ -38,7 +38,7 @@ yarn add fragrance-notes
 
 ### Get All Notes
 
-Retrieve the entire library of fragrance notes with their metadata and local image paths.
+Retrieve the entire library of fragrance notes with their metadata and public image URLs.
 
 ```javascript
 const { getAllNotes } = require('fragrance-notes');
@@ -48,7 +48,9 @@ console.log(allNotes[0]);
 /*
 {
   name: 'Absinth',
-  imagePath: '/path/to/project/node_modules/fragrance-notes/assets/images/absinth.jpg'
+  image: './images/absinth.jpg',
+  imagePath: '/path/to/project/node_modules/fragrance-notes/assets/images/absinth.jpg',
+  imageUrl: 'https://cdn.jsdelivr.net/gh/asifnawaz/fragrance-notes@v1.0.0/assets/images/absinth.jpg'
 }
 */
 ```
@@ -63,9 +65,33 @@ const { getNoteByName } = require('fragrance-notes');
 const tonkaBean = getNoteByName('Tonka Bean');
 if (tonkaBean) {
   console.log(`Found: ${tonkaBean.name}`);
-  console.log(`Image: ${tonkaBean.imagePath}`);
+  console.log(`Image URL: ${tonkaBean.imageUrl}`);
 }
 ```
+
+### Next.js Example
+
+Use the returned `imageUrl` with `next/image` instead of loading files from `node_modules` directly.
+
+```javascript
+import Image from 'next/image';
+import { getNoteByName } from 'fragrance-notes';
+
+const note = getNoteByName('Tonka Bean');
+
+export default function NoteCard() {
+  return (
+    <Image
+      src={note.imageUrl}
+      alt={note.name}
+      width={400}
+      height={400}
+    />
+  );
+}
+```
+
+Add `cdn.jsdelivr.net` to your Next.js image remote patterns configuration.
 
 ---
 
