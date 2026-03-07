@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/asifnawaz/fragrance-notes/compare/v1.0.0...v1.1.0) (2026-03-07)
+
+
+### Features
+
+* expose public image URLs for note assets ([9b54738](https://github.com/asifnawaz/fragrance-notes/commit/9b547382aae38e6ecf47e567d60104d125407ea3))
+
 # 1.0.0 (2026-03-05)
 
 

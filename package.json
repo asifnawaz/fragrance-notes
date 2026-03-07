@@ -1,6 +1,6 @@
 {
   "name": "fragrance-notes",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A comprehensive collection of fragrance notes with high-quality images and metadata for perfume enthusiasts and developers.",
   "main": "src/index.js",
   "files": [
