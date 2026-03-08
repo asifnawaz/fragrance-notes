@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/asifnawaz/fragrance-notes/compare/v1.1.0...v1.2.0) (2026-03-08)
+
+
+### Features
+
+* expand metadata fields and add filtering capabilities ([2516aac](https://github.com/asifnawaz/fragrance-notes/commit/2516aaca51bf9ea6698bbc270e8a2b1b063ca49b))
+
 # [1.1.0](https://github.com/asifnawaz/fragrance-notes/compare/v1.0.0...v1.1.0) (2026-03-07)
 
 
