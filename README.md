@@ -12,7 +12,8 @@ A comprehensive, developer-friendly library containing **540+ fragrance notes** 
 
 - **540+ Fragrance Notes**: A vast collection of scents from Absinthe to Ylang-Ylang.
 - **High-Quality Images**: Each note comes with a descriptive, high-resolution image.
-- **Metadata Included**: Includes note names and original image source URLs.
+- **Rich Metadata Included**: Includes slugs, fragrance families, note types, aliases, tags, accords, and image URLs.
+- **Compact Source Data**: The package keeps a lean canonical note dataset and hydrates integration-ready metadata at runtime.
 - **Easy Integration**: Simple API to retrieve notes by name or as a complete list.
 - **Lightweight**: Optimized for performance with minimal dependencies.
 
@@ -48,12 +49,22 @@ console.log(allNotes[0]);
 /*
 {
   name: 'Absinth',
+  slug: 'absinth',
+  family: 'other',
+  fragranceFamily: 'other',
+  fragranceFamilies: ['other'],
+  noteType: 'other',
+  accords: ['Other'],
+  tags: ['absinth', 'other', 'fragrance-note'],
+  description: 'Absinth is a other fragrance note with characteristics that fit Other.',
   image: './images/absinth.jpg',
   imagePath: '/path/to/project/node_modules/fragrance-notes/assets/images/absinth.jpg',
   imageUrl: 'https://cdn.jsdelivr.net/gh/asifnawaz/fragrance-notes@v1.0.0/assets/images/absinth.jpg'
 }
 */
 ```
+
+The source `assets/notes.json` stores only compact canonical note fields such as `slug`, `name`, `image`, `family`, `families`, and `type`. The library derives integration-friendly fields like `fragranceFamily`, `accords`, `tags`, `description`, `imagePath`, and `imageUrl` at runtime.
 
 ### Find a Specific Note
 
@@ -65,8 +76,30 @@ const { getNoteByName } = require('fragrance-notes');
 const tonkaBean = getNoteByName('Tonka Bean');
 if (tonkaBean) {
   console.log(`Found: ${tonkaBean.name}`);
+  console.log(`Family: ${tonkaBean.fragranceFamily}`);
   console.log(`Image URL: ${tonkaBean.imageUrl}`);
 }
+```
+
+### Filter Notes by Family
+
+```javascript
+const { getAllFamilies, getNotesByFamily } = require('fragrance-notes');
+
+const families = getAllFamilies();
+const floralNotes = getNotesByFamily('floral');
+
+console.log(families);
+console.log(floralNotes[0]);
+```
+
+### Find a Note by Slug
+
+```javascript
+const { getNoteBySlug } = require('fragrance-notes');
+
+const note = getNoteBySlug('african-neroli');
+console.log(note?.aliases);
 ```
 
 ### Next.js Example

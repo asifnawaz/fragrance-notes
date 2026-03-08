@@ -1,2166 +1,4154 @@
 [
   {
+    "slug": "absinth",
     "name": "Absinth",
-    "image": "./images/absinth.jpg"
+    "image": "absinth.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "absinthe",
     "name": "Absinthe",
-    "image": "./images/absinthe.jpg"
+    "image": "absinthe.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "acacias",
     "name": "Acacias",
-    "image": "./images/acacias.jpg"
+    "image": "acacias.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
-    "name": "Accord Drag\u00e9e",
-    "image": "./images/accord-drag\u00e9e.jpg"
+    "slug": "accord-dragee",
+    "name": "Accord Dragée",
+    "image": "accord-dragée.jpg",
+    "family": "other",
+    "type": "other",
+    "aliases": [
+      "accord dragee"
+    ]
   },
   {
+    "slug": "accord-sel-de-mer",
     "name": "Accord sel de mer",
-    "image": "./images/accord-sel-de-mer.jpg"
+    "image": "accord-sel-de-mer.jpg",
+    "family": "aquatic",
+    "type": "top"
   },
   {
+    "slug": "addictive-macadamia",
     "name": "Addictive Macadamia",
-    "image": "./images/addictive-macadamia.jpg"
+    "image": "addictive-macadamia.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "adriatic-fig-leaves",
     "name": "Adriatic Fig Leaves",
-    "image": "./images/adriatic-fig-leaves.jpg"
+    "image": "adriatic-fig-leaves.jpg",
+    "family": "fruity",
+    "type": "top",
+    "families": [
+      "fruity",
+      "green"
+    ]
   },
   {
+    "slug": "african-neroli",
     "name": "African Neroli",
-    "image": "./images/african-neroli.jpg"
+    "image": "african-neroli.jpg",
+    "family": "citrus",
+    "type": "top",
+    "families": [
+      "citrus",
+      "floral"
+    ]
   },
   {
+    "slug": "agave-nectar",
     "name": "Agave Nectar",
-    "image": "./images/agave-nectar.jpg"
+    "image": "agave-nectar.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "aged-musk",
     "name": "Aged Musk",
-    "image": "./images/aged-musk.jpg"
+    "image": "aged-musk.jpg",
+    "family": "musky",
+    "type": "base"
   },
   {
+    "slug": "almond-blossom",
     "name": "Almond Blossom",
-    "image": "./images/almond-blossom.jpg"
+    "image": "almond-blossom.jpg",
+    "family": "floral",
+    "type": "middle",
+    "families": [
+      "floral",
+      "gourmand"
+    ]
   },
   {
+    "slug": "almond-milk",
     "name": "Almond Milk",
-    "image": "./images/almond-milk.jpg"
+    "image": "almond-milk.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "almond-oil",
     "name": "Almond Oil",
-    "image": "./images/almond-oil.jpg"
+    "image": "almond-oil.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "alpine-air",
     "name": "Alpine Air",
-    "image": "./images/alpine-air.jpg"
+    "image": "alpine-air.jpg",
+    "family": "woody",
+    "type": "top",
+    "families": [
+      "woody",
+      "aquatic"
+    ]
   },
   {
+    "slug": "alstroemeria",
     "name": "Alstroemeria",
-    "image": "./images/alstroemeria.jpg"
+    "image": "alstroemeria.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "amber",
     "name": "Amber",
-    "image": "./images/amber.jpg"
+    "image": "amber.jpg",
+    "family": "amber",
+    "type": "base"
   },
   {
+    "slug": "amber-bourbon",
     "name": "Amber Bourbon",
-    "image": "./images/amber-bourbon.jpg"
+    "image": "amber-bourbon.jpg",
+    "family": "amber",
+    "type": "base"
   },
   {
+    "slug": "amber-coffee",
     "name": "Amber Coffee",
-    "image": "./images/amber-coffee.jpg"
+    "image": "amber-coffee.jpg",
+    "family": "amber",
+    "type": "base",
+    "families": [
+      "amber",
+      "gourmand"
+    ]
   },
   {
+    "slug": "amber-crystal",
     "name": "Amber Crystal",
-    "image": "./images/amber-crystal.jpg"
+    "image": "amber-crystal.jpg",
+    "family": "amber",
+    "type": "base"
   },
   {
+    "slug": "ambre",
     "name": "Ambre",
-    "image": "./images/ambre.jpg"
+    "image": "ambre.jpg",
+    "family": "amber",
+    "type": "base"
   },
   {
+    "slug": "ambrette-musk",
     "name": "Ambrette Musk",
-    "image": "./images/ambrette-musk.jpg"
+    "image": "ambrette-musk.jpg",
+    "family": "amber",
+    "type": "base",
+    "families": [
+      "amber",
+      "musky"
+    ]
   },
   {
+    "slug": "ambrox",
     "name": "Ambrox",
-    "image": "./images/ambrox.jpg"
+    "image": "ambrox.jpg",
+    "family": "amber",
+    "type": "base"
   },
   {
+    "slug": "ambroxine",
     "name": "Ambroxine",
-    "image": "./images/ambroxine.jpg"
+    "image": "ambroxine.jpg",
+    "family": "amber",
+    "type": "base"
   },
   {
-    "name": "A\u00f1ejo Rum",
-    "image": "./images/a\u00f1ejo-rum.jpg"
+    "slug": "anejo-rum",
+    "name": "Añejo Rum",
+    "image": "añejo-rum.jpg",
+    "family": "gourmand",
+    "type": "base",
+    "aliases": [
+      "anejo rum"
+    ]
   },
   {
+    "slug": "anise",
     "name": "Anise",
-    "image": "./images/anise.jpg"
+    "image": "anise.jpg",
+    "family": "spicy",
+    "type": "middle"
   },
   {
+    "slug": "apple-blossom",
     "name": "Apple Blossom",
-    "image": "./images/apple-blossom.jpg"
+    "image": "apple-blossom.jpg",
+    "family": "floral",
+    "type": "middle",
+    "families": [
+      "floral",
+      "fruity"
+    ]
   },
   {
+    "slug": "apple-tree",
     "name": "Apple Tree",
-    "image": "./images/apple-tree.jpg"
+    "image": "apple-tree.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "apricot-nectar",
     "name": "Apricot Nectar",
-    "image": "./images/apricot-nectar.jpg"
+    "image": "apricot-nectar.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "aquatic",
     "name": "Aquatic",
-    "image": "./images/aquatic.jpg"
+    "image": "aquatic.jpg",
+    "family": "aquatic",
+    "type": "top"
   },
   {
+    "slug": "aquatic-notes",
     "name": "Aquatic Notes",
-    "image": "./images/aquatic-notes.jpg"
+    "image": "aquatic-notes.jpg",
+    "family": "aquatic",
+    "type": "top"
   },
   {
+    "slug": "australian-pink-pepper",
     "name": "Australian Pink Pepper",
-    "image": "./images/australian-pink-pepper.jpg"
+    "image": "australian-pink-pepper.jpg",
+    "family": "spicy",
+    "type": "middle"
   },
   {
+    "slug": "authentic-oud-oil",
     "name": "Authentic Oud Oil",
-    "image": "./images/authentic-oud-oil.jpg"
+    "image": "authentic-oud-oil.jpg",
+    "family": "woody",
+    "type": "base",
+    "families": [
+      "woody",
+      "smoky"
+    ]
   },
   {
+    "slug": "balambre",
     "name": "Balambre",
-    "image": "./images/balambre.jpg"
+    "image": "balambre.jpg",
+    "family": "amber",
+    "type": "base"
   },
   {
+    "slug": "bamboo-leaf-accord",
     "name": "Bamboo Leaf Accord",
-    "image": "./images/bamboo-leaf-accord.jpg"
+    "image": "bamboo-leaf-accord.jpg",
+    "family": "woody",
+    "type": "top",
+    "families": [
+      "woody",
+      "green"
+    ]
   },
   {
+    "slug": "banana",
     "name": "Banana",
-    "image": "./images/banana.jpg"
+    "image": "banana.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "banana-and-strawberry-delight-accord",
     "name": "Banana & Strawberry Delight Accord",
-    "image": "./images/banana-_-strawberry-delight-accord.jpg"
+    "image": "banana-_-strawberry-delight-accord.jpg",
+    "family": "fruity",
+    "type": "middle",
+    "aliases": [
+      "banana and strawberry delight accord"
+    ]
   },
   {
+    "slug": "basmati-rice",
     "name": "Basmati Rice",
-    "image": "./images/basmati-rice.jpg"
+    "image": "basmati-rice.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "bee-wax",
     "name": "Bee Wax",
-    "image": "./images/bee-wax.jpg"
+    "image": "bee-wax.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "belambra",
     "name": "Belambra",
-    "image": "./images/belambra.jpg"
+    "image": "belambra.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "bergamot",
     "name": "Bergamot",
-    "image": "./images/bergamot.jpg"
+    "image": "bergamot.jpg",
+    "family": "citrus",
+    "type": "top"
   },
   {
+    "slug": "bergamot-essence",
     "name": "Bergamot Essence",
-    "image": "./images/bergamot-essence.jpg"
+    "image": "bergamot-essence.jpg",
+    "family": "citrus",
+    "type": "top"
   },
   {
-    "name": "Beurre d\u2019Iris",
-    "image": "./images/beurre-d_iris.jpg"
+    "slug": "beurre-d-iris",
+    "name": "Beurre d’Iris",
+    "image": "beurre-d_iris.jpg",
+    "family": "floral",
+    "type": "middle",
+    "aliases": [
+      "beurre d iris"
+    ]
   },
   {
+    "slug": "birch-tar",
     "name": "Birch Tar",
-    "image": "./images/birch-tar.jpg"
+    "image": "birch-tar.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "black-cherry-accord",
     "name": "Black Cherry Accord",
-    "image": "./images/black-cherry-accord.jpg"
+    "image": "black-cherry-accord.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "black-coconut",
     "name": "Black Coconut",
-    "image": "./images/black-coconut.jpg"
+    "image": "black-coconut.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "black-currant-berries",
     "name": "Black Currant Berries",
-    "image": "./images/black-currant-berries.jpg"
+    "image": "black-currant-berries.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "black-leather",
     "name": "Black Leather",
-    "image": "./images/black-leather.jpg"
+    "image": "black-leather.jpg",
+    "family": "smoky",
+    "type": "base"
   },
   {
+    "slug": "black-pepper-from-madagascar",
     "name": "Black Pepper from Madagascar",
-    "image": "./images/black-pepper-from-madagascar.jpg"
+    "image": "black-pepper-from-madagascar.jpg",
+    "family": "spicy",
+    "type": "middle"
   },
   {
+    "slug": "black-plum",
     "name": "Black Plum",
-    "image": "./images/black-plum.jpg"
+    "image": "black-plum.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "black-sesame-seeds",
     "name": "Black Sesame Seeds",
-    "image": "./images/black-sesame-seeds.jpg"
+    "image": "black-sesame-seeds.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "black-vanilla",
     "name": "Black Vanilla",
-    "image": "./images/black-vanilla.jpg"
+    "image": "black-vanilla.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "blackberrry-leaf",
     "name": "Blackberrry Leaf",
-    "image": "./images/blackberrry-leaf.jpg"
+    "image": "blackberrry-leaf.jpg",
+    "family": "green",
+    "type": "top"
   },
   {
+    "slug": "blackberry-musk",
     "name": "Blackberry Musk",
-    "image": "./images/blackberry-musk.jpg"
+    "image": "blackberry-musk.jpg",
+    "family": "fruity",
+    "type": "middle",
+    "families": [
+      "fruity",
+      "musky"
+    ]
   },
   {
+    "slug": "blackcurrant-bud",
     "name": "Blackcurrant Bud",
-    "image": "./images/blackcurrant-bud.jpg"
+    "image": "blackcurrant-bud.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "blackcurrant-buds-absolute",
     "name": "Blackcurrant Buds Absolute",
-    "image": "./images/blackcurrant-buds-absolute.jpg"
+    "image": "blackcurrant-buds-absolute.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "blond-wood",
     "name": "Blond Wood",
-    "image": "./images/blond-wood.jpg"
+    "image": "blond-wood.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "blown-out-birthday-candles",
     "name": "Blown Out Birthday Candles",
-    "image": "./images/blown-out-birthday-candles.jpg"
+    "image": "blown-out-birthday-candles.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "blue-amber",
     "name": "Blue Amber",
-    "image": "./images/blue-amber.jpg"
+    "image": "blue-amber.jpg",
+    "family": "amber",
+    "type": "base"
   },
   {
+    "slug": "blue-cyclamen",
     "name": "Blue Cyclamen",
-    "image": "./images/blue-cyclamen.jpg"
+    "image": "blue-cyclamen.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "blue-lavender",
     "name": "Blue Lavender",
-    "image": "./images/blue-lavender.jpg"
+    "image": "blue-lavender.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "blue-sage",
     "name": "Blue Sage",
-    "image": "./images/blue-sage.jpg"
+    "image": "blue-sage.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "blueberry-accord",
     "name": "Blueberry Accord",
-    "image": "./images/blueberry-accord.jpg"
+    "image": "blueberry-accord.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "bold-amber",
     "name": "Bold Amber",
-    "image": "./images/bold-amber.jpg"
+    "image": "bold-amber.jpg",
+    "family": "amber",
+    "type": "base"
   },
   {
+    "slug": "boozy-plum",
     "name": "Boozy Plum",
-    "image": "./images/boozy-plum.jpg"
+    "image": "boozy-plum.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "bouquet-of-spices",
     "name": "Bouquet of Spices",
-    "image": "./images/bouquet-of-spices.jpg"
+    "image": "bouquet-of-spices.jpg",
+    "family": "spicy",
+    "type": "middle"
   },
   {
+    "slug": "bourbon-vanilla",
     "name": "Bourbon Vanilla",
-    "image": "./images/bourbon-vanilla.jpg"
+    "image": "bourbon-vanilla.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "brazilian-tonka-bean",
     "name": "Brazilian Tonka Bean",
-    "image": "./images/brazilian-tonka-bean.jpg"
+    "image": "brazilian-tonka-bean.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "bright-bergamot",
     "name": "Bright Bergamot",
-    "image": "./images/bright-bergamot.jpg"
+    "image": "bright-bergamot.jpg",
+    "family": "citrus",
+    "type": "top"
   },
   {
+    "slug": "bright-mandarin",
     "name": "Bright Mandarin",
-    "image": "./images/bright-mandarin.jpg"
+    "image": "bright-mandarin.jpg",
+    "family": "citrus",
+    "type": "top",
+    "families": [
+      "citrus",
+      "fruity"
+    ]
   },
   {
+    "slug": "bright-yuzu",
     "name": "Bright Yuzu",
-    "image": "./images/bright-yuzu.jpg"
+    "image": "bright-yuzu.jpg",
+    "family": "citrus",
+    "type": "top"
   },
   {
+    "slug": "brown-orchid",
     "name": "Brown Orchid",
-    "image": "./images/brown-orchid.jpg"
+    "image": "brown-orchid.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "bulgar-rose",
     "name": "Bulgar Rose",
-    "image": "./images/bulgar-rose.jpg"
+    "image": "bulgar-rose.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "bulgarian-rose",
     "name": "Bulgarian Rose",
-    "image": "./images/bulgarian-rose.jpg"
+    "image": "bulgarian-rose.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "bulgarian-rose-essence",
     "name": "Bulgarian Rose Essence",
-    "image": "./images/bulgarian-rose-essence.jpg"
+    "image": "bulgarian-rose-essence.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "burnt-sugar",
     "name": "Burnt Sugar",
-    "image": "./images/burnt-sugar.jpg"
+    "image": "burnt-sugar.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "burnt-sugar-crystals",
     "name": "Burnt Sugar Crystals",
-    "image": "./images/burnt-sugar-crystals.jpg"
+    "image": "burnt-sugar-crystals.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "buttermilk",
     "name": "Buttermilk",
-    "image": "./images/buttermilk.jpg"
+    "image": "buttermilk.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "cabreuva",
     "name": "Cabreuva",
-    "image": "./images/cabreuva.jpg"
+    "image": "cabreuva.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "calabrian-neroli",
     "name": "Calabrian neroli",
-    "image": "./images/calabrian-neroli.jpg"
+    "image": "calabrian-neroli.jpg",
+    "family": "citrus",
+    "type": "top",
+    "families": [
+      "citrus",
+      "floral"
+    ]
   },
   {
+    "slug": "caledonia-sandalwood",
     "name": "Caledonia Sandalwood",
-    "image": "./images/caledonia-sandalwood.jpg"
+    "image": "caledonia-sandalwood.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "california-poppy",
     "name": "California Poppy",
-    "image": "./images/california-poppy.jpg"
+    "image": "california-poppy.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "candy-floss",
     "name": "Candy Floss",
-    "image": "./images/candy-floss.jpg"
+    "image": "candy-floss.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "cannabis",
     "name": "Cannabis",
-    "image": "./images/cannabis.jpg"
+    "image": "cannabis.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "cannabis-accord",
     "name": "Cannabis Accord",
-    "image": "./images/cannabis-accord.jpg"
+    "image": "cannabis-accord.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "cannabis-leaf",
     "name": "Cannabis Leaf",
-    "image": "./images/cannabis-leaf.jpg"
+    "image": "cannabis-leaf.jpg",
+    "family": "green",
+    "type": "top"
   },
   {
+    "slug": "caramel",
     "name": "Caramel",
-    "image": "./images/caramel.jpg"
+    "image": "caramel.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "caramelised-popcorn-accord",
     "name": "Caramelised Popcorn Accord",
-    "image": "./images/caramelised-popcorn-accord.jpg"
+    "image": "caramelised-popcorn-accord.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "cardamom-essence",
     "name": "Cardamom Essence",
-    "image": "./images/cardamom-essence.jpg"
+    "image": "cardamom-essence.jpg",
+    "family": "spicy",
+    "type": "middle"
   },
   {
+    "slug": "carrot-heart",
     "name": "Carrot Heart",
-    "image": "./images/carrot-heart.jpg"
+    "image": "carrot-heart.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "cashmere-amber",
     "name": "Cashmere Amber",
-    "image": "./images/cashmere-amber.jpg"
+    "image": "cashmere-amber.jpg",
+    "family": "woody",
+    "type": "base",
+    "families": [
+      "woody",
+      "amber"
+    ]
   },
   {
+    "slug": "cashmere-musk",
     "name": "Cashmere Musk",
-    "image": "./images/cashmere-musk.jpg"
+    "image": "cashmere-musk.jpg",
+    "family": "woody",
+    "type": "base",
+    "families": [
+      "woody",
+      "musky"
+    ]
   },
   {
+    "slug": "cashmere-rose-base",
     "name": "Cashmere Rose Base",
-    "image": "./images/cashmere-rose-base.jpg"
+    "image": "cashmere-rose-base.jpg",
+    "family": "floral",
+    "type": "middle",
+    "families": [
+      "floral",
+      "woody"
+    ]
   },
   {
+    "slug": "catalog",
     "name": "Catalog",
-    "image": "./images/catalog.jpg"
+    "image": "catalog.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "cedar-leaf",
     "name": "Cedar Leaf",
-    "image": "./images/cedar-leaf.jpg"
+    "image": "cedar-leaf.jpg",
+    "family": "woody",
+    "type": "top",
+    "families": [
+      "woody",
+      "green"
+    ]
   },
   {
+    "slug": "cedar-wood-heart-virginia-lmr",
     "name": "Cedar Wood Heart Virginia LMR",
-    "image": "./images/cedar-wood-heart-virginia-lmr.jpg"
+    "image": "cedar-wood-heart-virginia-lmr.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "cedarwood",
     "name": "Cedarwood",
-    "image": "./images/cedarwood.jpg"
+    "image": "cedarwood.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "cedrat-essence",
     "name": "Cedrat Essence",
-    "image": "./images/cedrat-essence.jpg"
+    "image": "cedrat-essence.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
-    "name": "C\u00e8dre",
-    "image": "./images/c\u00e8dre.jpg"
+    "slug": "cedre",
+    "name": "Cèdre",
+    "image": "cèdre.jpg",
+    "family": "other",
+    "type": "other",
+    "aliases": [
+      "cedre"
+    ]
   },
   {
+    "slug": "ceylon-black-tea",
     "name": "Ceylon Black Tea",
-    "image": "./images/ceylon-black-tea.jpg"
+    "image": "ceylon-black-tea.jpg",
+    "family": "green",
+    "type": "top"
   },
   {
+    "slug": "ceylon-cinnamon",
     "name": "Ceylon Cinnamon",
-    "image": "./images/ceylon-cinnamon.jpg"
+    "image": "ceylon-cinnamon.jpg",
+    "family": "spicy",
+    "type": "middle"
   },
   {
+    "slug": "ceylon-tea",
     "name": "Ceylon Tea",
-    "image": "./images/ceylon-tea.jpg"
+    "image": "ceylon-tea.jpg",
+    "family": "green",
+    "type": "top"
   },
   {
+    "slug": "champaca-absolute",
     "name": "Champaca Absolute",
-    "image": "./images/champaca-absolute.jpg"
+    "image": "champaca-absolute.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "champagne-mandarin",
     "name": "Champagne Mandarin",
-    "image": "./images/champagne-mandarin.jpg"
+    "image": "champagne-mandarin.jpg",
+    "family": "citrus",
+    "type": "top",
+    "families": [
+      "citrus",
+      "fruity"
+    ]
   },
   {
+    "slug": "chantilly-cream",
     "name": "Chantilly Cream",
-    "image": "./images/chantilly-cream.jpg"
+    "image": "chantilly-cream.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "cherry",
     "name": "Cherry",
-    "image": "./images/cherry.jpg"
+    "image": "cherry.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "cherry-accord",
     "name": "Cherry Accord",
-    "image": "./images/cherry-accord.jpg"
+    "image": "cherry-accord.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "cherry-compote",
     "name": "Cherry Compote",
-    "image": "./images/cherry-compote.jpg"
+    "image": "cherry-compote.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "chestnut",
     "name": "Chestnut",
-    "image": "./images/chestnut.jpg"
+    "image": "chestnut.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "cinnamon-bark",
     "name": "Cinnamon Bark",
-    "image": "./images/cinnamon-bark.jpg"
+    "image": "cinnamon-bark.jpg",
+    "family": "spicy",
+    "type": "middle"
   },
   {
+    "slug": "citron-zest",
     "name": "Citron Zest",
-    "image": "./images/citron-zest.jpg"
+    "image": "citron-zest.jpg",
+    "family": "citrus",
+    "type": "top"
   },
   {
+    "slug": "citrus-peel",
     "name": "Citrus Peel",
-    "image": "./images/citrus-peel.jpg"
+    "image": "citrus-peel.jpg",
+    "family": "citrus",
+    "type": "top"
   },
   {
+    "slug": "citrus-peels",
     "name": "Citrus Peels",
-    "image": "./images/citrus-peels.jpg"
+    "image": "citrus-peels.jpg",
+    "family": "citrus",
+    "type": "top"
   },
   {
+    "slug": "clary-sage-absolute",
     "name": "Clary Sage Absolute",
-    "image": "./images/clary-sage-absolute.jpg"
+    "image": "clary-sage-absolute.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "clean-accord",
     "name": "Clean Accord",
-    "image": "./images/clean-accord.jpg"
+    "image": "clean-accord.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "clean-water-infused-with-herb",
     "name": "Clean Water Infused With Herb",
-    "image": "./images/clean-water-infused-with-herb.jpg"
+    "image": "clean-water-infused-with-herb.jpg",
+    "family": "aquatic",
+    "type": "top"
   },
   {
+    "slug": "clearwood",
     "name": "Clearwood",
-    "image": "./images/clearwood.jpg"
+    "image": "clearwood.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "coastal-jasmine",
     "name": "Coastal Jasmine",
-    "image": "./images/coastal-jasmine.jpg"
+    "image": "coastal-jasmine.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "coastal-lavender",
     "name": "Coastal Lavender",
-    "image": "./images/coastal-lavender.jpg"
+    "image": "coastal-lavender.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "coastal-seagrass",
     "name": "Coastal Seagrass",
-    "image": "./images/coastal-seagrass.jpg"
+    "image": "coastal-seagrass.jpg",
+    "family": "green",
+    "type": "top",
+    "families": [
+      "green",
+      "aquatic"
+    ]
   },
   {
+    "slug": "cocoa-absolute-lmr",
     "name": "Cocoa Absolute LMR",
-    "image": "./images/cocoa-absolute-lmr.jpg"
+    "image": "cocoa-absolute-lmr.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "cocoa-extract",
     "name": "Cocoa Extract",
-    "image": "./images/cocoa-extract.jpg"
+    "image": "cocoa-extract.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "cocoa-powder",
     "name": "Cocoa Powder",
-    "image": "./images/cocoa-powder.jpg"
+    "image": "cocoa-powder.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "coconut",
     "name": "Coconut",
-    "image": "./images/coconut.jpg"
+    "image": "coconut.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "coconut-milk",
     "name": "Coconut Milk",
-    "image": "./images/coconut-milk.jpg"
+    "image": "coconut-milk.jpg",
+    "family": "fruity",
+    "type": "middle",
+    "families": [
+      "fruity",
+      "gourmand"
+    ]
   },
   {
+    "slug": "coconut-water",
     "name": "Coconut Water",
-    "image": "./images/coconut-water.jpg"
+    "image": "coconut-water.jpg",
+    "family": "fruity",
+    "type": "top",
+    "families": [
+      "fruity",
+      "aquatic"
+    ]
   },
   {
+    "slug": "coffee",
     "name": "Coffee",
-    "image": "./images/coffee.jpg"
+    "image": "coffee.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "coffee-bean",
     "name": "Coffee Bean",
-    "image": "./images/coffee-bean.jpg"
+    "image": "coffee-bean.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "coffee-beans",
     "name": "Coffee Beans",
-    "image": "./images/coffee-beans.jpg"
+    "image": "coffee-beans.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "cognac-accord",
     "name": "Cognac Accord",
-    "image": "./images/cognac-accord.jpg"
+    "image": "cognac-accord.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "condensed-milk",
     "name": "Condensed Milk",
-    "image": "./images/condensed-milk.jpg"
+    "image": "condensed-milk.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "cottonwood",
     "name": "Cottonwood",
-    "image": "./images/cottonwood.jpg"
+    "image": "cottonwood.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "creamy-musk",
     "name": "Creamy Musk",
-    "image": "./images/creamy-musk.jpg"
+    "image": "creamy-musk.jpg",
+    "family": "musky",
+    "type": "base"
   },
   {
+    "slug": "creamy-nutmeg",
     "name": "Creamy Nutmeg",
-    "image": "./images/creamy-nutmeg.jpg"
+    "image": "creamy-nutmeg.jpg",
+    "family": "spicy",
+    "type": "middle"
   },
   {
+    "slug": "creamy-peach",
     "name": "Creamy Peach",
-    "image": "./images/creamy-peach.jpg"
+    "image": "creamy-peach.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "creamy-sandalwood",
     "name": "Creamy Sandalwood",
-    "image": "./images/creamy-sandalwood.jpg"
+    "image": "creamy-sandalwood.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "creamy-woods",
     "name": "Creamy Woods",
-    "image": "./images/creamy-woods.jpg"
+    "image": "creamy-woods.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
-    "name": "Cr\u00e8me de Cassis",
-    "image": "./images/cr\u00e8me-de-cassis.jpg"
+    "slug": "creme-de-cassis",
+    "name": "Crème de Cassis",
+    "image": "crème-de-cassis.jpg",
+    "family": "other",
+    "type": "other",
+    "aliases": [
+      "creme de cassis"
+    ]
   },
   {
+    "slug": "crisp-apple",
     "name": "Crisp Apple",
-    "image": "./images/crisp-apple.jpg"
+    "image": "crisp-apple.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "crisp-linen",
     "name": "Crisp Linen",
-    "image": "./images/crisp-linen.jpg"
+    "image": "crisp-linen.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "crystallized-amber",
     "name": "Crystallized Amber",
-    "image": "./images/crystallized-amber.jpg"
+    "image": "crystallized-amber.jpg",
+    "family": "amber",
+    "type": "base"
   },
   {
+    "slug": "crystallized-cloudberries",
     "name": "Crystallized Cloudberries",
-    "image": "./images/crystallized-cloudberries.jpg"
+    "image": "crystallized-cloudberries.jpg",
+    "family": "woody",
+    "type": "base",
+    "families": [
+      "woody",
+      "smoky"
+    ]
   },
   {
+    "slug": "cucumber",
     "name": "Cucumber",
-    "image": "./images/cucumber.jpg"
+    "image": "cucumber.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "cucumber-skin",
     "name": "Cucumber Skin",
-    "image": "./images/cucumber-skin.jpg"
+    "image": "cucumber-skin.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "cuir-de-grasse",
     "name": "Cuir de Grasse",
-    "image": "./images/cuir-de-grasse.jpg"
+    "image": "cuir-de-grasse.jpg",
+    "family": "green",
+    "type": "top"
   },
   {
+    "slug": "cypress-wood",
     "name": "Cypress Wood",
-    "image": "./images/cypress-wood.jpg"
+    "image": "cypress-wood.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "cypriol",
     "name": "Cypriol",
-    "image": "./images/cypriol.jpg"
+    "image": "cypriol.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
-    "name": "d\u2019Ornano Rose Accord",
-    "image": "./images/d_ornano-rose-accord.jpg"
+    "slug": "d-ornano-rose-accord",
+    "name": "d’Ornano Rose Accord",
+    "image": "d_ornano-rose-accord.jpg",
+    "family": "floral",
+    "type": "middle",
+    "aliases": [
+      "d ornano rose accord"
+    ]
   },
   {
+    "slug": "daffodil",
     "name": "Daffodil",
-    "image": "./images/daffodil.jpg"
+    "image": "daffodil.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "daisy-tree-petals",
     "name": "Daisy Tree Petals",
-    "image": "./images/daisy-tree-petals.jpg"
+    "image": "daisy-tree-petals.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "damascena-rose",
     "name": "Damascena Rose",
-    "image": "./images/damascena-rose.jpg"
+    "image": "damascena-rose.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "damson-plum-accord",
     "name": "Damson Plum Accord",
-    "image": "./images/damson-plum-accord.jpg"
+    "image": "damson-plum-accord.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "dark-chocolate",
     "name": "Dark Chocolate",
-    "image": "./images/dark-chocolate.jpg"
+    "image": "dark-chocolate.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "davana-oil",
     "name": "Davana Oil",
-    "image": "./images/davana-oil.jpg"
+    "image": "davana-oil.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "delicate-rose",
     "name": "Delicate Rose",
-    "image": "./images/delicate-rose.jpg"
+    "image": "delicate-rose.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "desert-marigold",
     "name": "Desert Marigold",
-    "image": "./images/desert-marigold.jpg"
+    "image": "desert-marigold.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "dewy-fruits",
     "name": "Dewy Fruits",
-    "image": "./images/dewy-fruits.jpg"
+    "image": "dewy-fruits.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "dewy-gardenia",
     "name": "Dewy Gardenia",
-    "image": "./images/dewy-gardenia.jpg"
+    "image": "dewy-gardenia.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "dewy-green-accord",
     "name": "Dewy Green Accord",
-    "image": "./images/dewy-green-accord.jpg"
+    "image": "dewy-green-accord.jpg",
+    "family": "green",
+    "type": "top"
   },
   {
+    "slug": "dewy-pear",
     "name": "Dewy Pear",
-    "image": "./images/dewy-pear.jpg"
+    "image": "dewy-pear.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "dried-cedrat",
     "name": "Dried Cedrat",
-    "image": "./images/dried-cedrat.jpg"
+    "image": "dried-cedrat.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "dried-fruits-accord",
     "name": "Dried Fruits Accord",
-    "image": "./images/dried-fruits-accord.jpg"
+    "image": "dried-fruits-accord.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "dried-rose",
     "name": "Dried Rose",
-    "image": "./images/dried-rose.jpg"
+    "image": "dried-rose.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "dulce-de-leche-accord",
     "name": "Dulce De Leche Accord",
-    "image": "./images/dulce-de-leche-accord.jpg"
+    "image": "dulce-de-leche-accord.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "dune-grass",
     "name": "Dune Grass",
-    "image": "./images/dune-grass.jpg"
+    "image": "dune-grass.jpg",
+    "family": "green",
+    "type": "top"
   },
   {
+    "slug": "earl-grey-tea",
     "name": "Earl Grey Tea",
-    "image": "./images/earl-grey-tea.jpg"
+    "image": "earl-grey-tea.jpg",
+    "family": "green",
+    "type": "top"
   },
   {
+    "slug": "energy-drink-accord",
     "name": "Energy Drink Accord",
-    "image": "./images/energy-drink-accord.jpg"
+    "image": "energy-drink-accord.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "extra-virgin-olive-oil-accord",
     "name": "Extra Virgin Olive Oil Accord",
-    "image": "./images/extra-virgin-olive-oil-accord.jpg"
+    "image": "extra-virgin-olive-oil-accord.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "feuille-de-violette",
     "name": "Feuille de Violette",
-    "image": "./images/feuille-de-violette.jpg"
+    "image": "feuille-de-violette.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "fig",
     "name": "Fig",
-    "image": "./images/fig.jpg"
+    "image": "fig.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "fig-pulp-accord",
     "name": "Fig Pulp Accord",
-    "image": "./images/fig-pulp-accord.jpg"
+    "image": "fig-pulp-accord.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "fir-balsam",
     "name": "Fir Balsam",
-    "image": "./images/fir-balsam.jpg"
+    "image": "fir-balsam.jpg",
+    "family": "amber",
+    "type": "base"
   },
   {
+    "slug": "fleur-de-sel-accord",
     "name": "Fleur De Sel Accord",
-    "image": "./images/fleur-de-sel-accord.jpg"
+    "image": "fleur-de-sel-accord.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "flower-market-accord",
     "name": "Flower Market Accord",
-    "image": "./images/flower-market-accord.jpg"
+    "image": "flower-market-accord.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "forest-musk",
     "name": "Forest Musk",
-    "image": "./images/forest-musk.jpg"
+    "image": "forest-musk.jpg",
+    "family": "musky",
+    "type": "base"
   },
   {
+    "slug": "frangipani-flower",
     "name": "Frangipani Flower",
-    "image": "./images/frangipani-flower.jpg"
+    "image": "frangipani-flower.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "frankincense",
     "name": "Frankincense",
-    "image": "./images/frankincense.jpg"
+    "image": "frankincense.jpg",
+    "family": "smoky",
+    "type": "base"
   },
   {
+    "slug": "freesia",
     "name": "Freesia",
-    "image": "./images/freesia.jpg"
+    "image": "freesia.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "french-cognac",
     "name": "French Cognac",
-    "image": "./images/french-cognac.jpg"
+    "image": "french-cognac.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "french-lavender-oil",
     "name": "French Lavender Oil",
-    "image": "./images/french-lavender-oil.jpg"
+    "image": "french-lavender-oil.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "french-pear-nectar",
     "name": "French Pear Nectar",
-    "image": "./images/french-pear-nectar.jpg"
+    "image": "french-pear-nectar.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "fresh-basil",
     "name": "Fresh Basil",
-    "image": "./images/fresh-basil.jpg"
+    "image": "fresh-basil.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "fresh-cardamom",
     "name": "Fresh Cardamom",
-    "image": "./images/fresh-cardamom.jpg"
+    "image": "fresh-cardamom.jpg",
+    "family": "spicy",
+    "type": "middle"
   },
   {
+    "slug": "fresh-cream",
     "name": "Fresh Cream",
-    "image": "./images/fresh-cream.jpg"
+    "image": "fresh-cream.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "fresh-cut-flowers",
     "name": "Fresh Cut Flowers",
-    "image": "./images/fresh-cut-flowers.jpg"
+    "image": "fresh-cut-flowers.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "fresh-earth",
     "name": "Fresh Earth",
-    "image": "./images/fresh-earth.jpg"
+    "image": "fresh-earth.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "fresh-fig",
     "name": "Fresh Fig",
-    "image": "./images/fresh-fig.jpg"
+    "image": "fresh-fig.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "fresh-grass",
     "name": "Fresh Grass",
-    "image": "./images/fresh-grass.jpg"
+    "image": "fresh-grass.jpg",
+    "family": "green",
+    "type": "top"
   },
   {
+    "slug": "fresh-ground-coffee",
     "name": "Fresh Ground Coffee",
-    "image": "./images/fresh-ground-coffee.jpg"
+    "image": "fresh-ground-coffee.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "fresh-peach",
     "name": "Fresh Peach",
-    "image": "./images/fresh-peach.jpg"
+    "image": "fresh-peach.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "fresh-rain-accord",
     "name": "Fresh Rain Accord",
-    "image": "./images/fresh-rain-accord.jpg"
+    "image": "fresh-rain-accord.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "fresh-rhubarb",
     "name": "Fresh Rhubarb",
-    "image": "./images/fresh-rhubarb.jpg"
+    "image": "fresh-rhubarb.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "fresh-rosewater",
     "name": "Fresh Rosewater",
-    "image": "./images/fresh-rosewater.jpg"
+    "image": "fresh-rosewater.jpg",
+    "family": "floral",
+    "type": "top",
+    "families": [
+      "floral",
+      "aquatic"
+    ]
   },
   {
+    "slug": "frozen-mango",
     "name": "Frozen Mango",
-    "image": "./images/frozen-mango.jpg"
+    "image": "frozen-mango.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
-    "name": "Ga\u00efac Wood",
-    "image": "./images/ga\u00efac-wood.jpg"
+    "slug": "gaiac-wood",
+    "name": "Gaïac Wood",
+    "image": "gaïac-wood.jpg",
+    "family": "woody",
+    "type": "base",
+    "aliases": [
+      "gaiac wood"
+    ]
   },
   {
+    "slug": "gardenia",
     "name": "Gardenia",
-    "image": "./images/gardenia.jpg"
+    "image": "gardenia.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "gardenia-petals",
     "name": "Gardenia Petals",
-    "image": "./images/gardenia-petals.jpg"
+    "image": "gardenia-petals.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "geranium",
     "name": "Geranium",
-    "image": "./images/geranium.jpg"
+    "image": "geranium.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "ginger-extract-co2",
     "name": "Ginger Extract CO2",
-    "image": "./images/ginger-extract-co2.jpg"
+    "image": "ginger-extract-co2.jpg",
+    "family": "spicy",
+    "type": "middle"
   },
   {
+    "slug": "golden-amberwood",
     "name": "Golden Amberwood",
-    "image": "./images/golden-amberwood.jpg"
+    "image": "golden-amberwood.jpg",
+    "family": "woody",
+    "type": "base",
+    "families": [
+      "woody",
+      "amber"
+    ]
   },
   {
+    "slug": "golden-caramel",
     "name": "Golden Caramel",
-    "image": "./images/golden-caramel.jpg"
+    "image": "golden-caramel.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "golden-caramelized-apple",
     "name": "Golden Caramelized Apple",
-    "image": "./images/golden-caramelized-apple.jpg"
+    "image": "golden-caramelized-apple.jpg",
+    "family": "fruity",
+    "type": "middle",
+    "families": [
+      "fruity",
+      "gourmand"
+    ]
   },
   {
+    "slug": "grapefruit",
     "name": "Grapefruit",
-    "image": "./images/grapefruit.jpg"
+    "image": "grapefruit.jpg",
+    "family": "citrus",
+    "type": "top",
+    "families": [
+      "citrus",
+      "fruity"
+    ]
   },
   {
+    "slug": "grapefruit-essence",
     "name": "Grapefruit Essence",
-    "image": "./images/grapefruit-essence.jpg"
+    "image": "grapefruit-essence.jpg",
+    "family": "citrus",
+    "type": "top",
+    "families": [
+      "citrus",
+      "fruity"
+    ]
   },
   {
+    "slug": "grapefruit-zest",
     "name": "Grapefruit Zest",
-    "image": "./images/grapefruit-zest.jpg"
+    "image": "grapefruit-zest.jpg",
+    "family": "citrus",
+    "type": "top",
+    "families": [
+      "citrus",
+      "fruity"
+    ]
   },
   {
+    "slug": "grated-coconut-flakes",
     "name": "Grated Coconut Flakes",
-    "image": "./images/grated-coconut-flakes.jpg"
+    "image": "grated-coconut-flakes.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "green-almond",
     "name": "Green Almond",
-    "image": "./images/green-almond.jpg"
+    "image": "green-almond.jpg",
+    "family": "gourmand",
+    "type": "top",
+    "families": [
+      "gourmand",
+      "green"
+    ]
   },
   {
+    "slug": "green-mandarin",
     "name": "Green Mandarin",
-    "image": "./images/green-mandarin.jpg"
+    "image": "green-mandarin.jpg",
+    "family": "citrus",
+    "type": "top",
+    "families": [
+      "citrus",
+      "fruity",
+      "green"
+    ]
   },
   {
-    "name": "Green Mat\u00e9 Tea",
-    "image": "./images/green-mat\u00e9-tea.jpg"
+    "slug": "green-mate-tea",
+    "name": "Green Maté Tea",
+    "image": "green-maté-tea.jpg",
+    "family": "green",
+    "type": "top",
+    "aliases": [
+      "green mate tea"
+    ]
   },
   {
+    "slug": "green-musk-molecule",
     "name": "Green Musk Molecule",
-    "image": "./images/green-musk-molecule.jpg"
+    "image": "green-musk-molecule.jpg",
+    "family": "green",
+    "type": "top",
+    "families": [
+      "green",
+      "musky"
+    ]
   },
   {
+    "slug": "grilled-almond",
     "name": "Grilled Almond",
-    "image": "./images/grilled-almond.jpg"
+    "image": "grilled-almond.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "gunmetal",
     "name": "Gunmetal",
-    "image": "./images/gunmetal.jpg"
+    "image": "gunmetal.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "healing-wood",
     "name": "Healing Wood",
-    "image": "./images/healing-wood.jpg"
+    "image": "healing-wood.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "heavy-cream",
     "name": "Heavy Cream",
-    "image": "./images/heavy-cream.jpg"
+    "image": "heavy-cream.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "honey",
     "name": "Honey",
-    "image": "./images/honey.jpg"
+    "image": "honey.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "honeycomb",
     "name": "Honeycomb",
-    "image": "./images/honeycomb.jpg"
+    "image": "honeycomb.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "honeycrisp-pear",
     "name": "HoneyCrisp Pear",
-    "image": "./images/honeycrisp-pear.jpg"
+    "image": "honeycrisp-pear.jpg",
+    "family": "fruity",
+    "type": "middle",
+    "families": [
+      "fruity",
+      "gourmand"
+    ]
   },
   {
+    "slug": "honeydew",
     "name": "Honeydew",
-    "image": "./images/honeydew.jpg"
+    "image": "honeydew.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "incense",
     "name": "Incense",
-    "image": "./images/incense.jpg"
+    "image": "incense.jpg",
+    "family": "smoky",
+    "type": "base"
   },
   {
+    "slug": "indian-papyrus-essence",
     "name": "Indian Papyrus Essence",
-    "image": "./images/indian-papyrus-essence.jpg"
+    "image": "indian-papyrus-essence.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "indonesian-oud",
     "name": "Indonesian Oud",
-    "image": "./images/indonesian-oud.jpg"
+    "image": "indonesian-oud.jpg",
+    "family": "woody",
+    "type": "base",
+    "families": [
+      "woody",
+      "smoky"
+    ]
   },
   {
+    "slug": "indonesian-patchouli",
     "name": "Indonesian Patchouli",
-    "image": "./images/indonesian-patchouli.jpg"
+    "image": "indonesian-patchouli.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "ink-accord",
     "name": "Ink Accord",
-    "image": "./images/ink-accord.jpg"
+    "image": "ink-accord.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "iris",
     "name": "Iris",
-    "image": "./images/iris.jpg"
+    "image": "iris.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "iris-resin",
     "name": "Iris Resin",
-    "image": "./images/iris-resin.jpg"
+    "image": "iris-resin.jpg",
+    "family": "floral",
+    "type": "middle",
+    "families": [
+      "floral",
+      "amber"
+    ]
   },
   {
+    "slug": "irish-cream",
     "name": "Irish Cream",
-    "image": "./images/irish-cream.jpg"
+    "image": "irish-cream.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "italian-basil-essence",
     "name": "Italian Basil Essence",
-    "image": "./images/italian-basil-essence.jpg"
+    "image": "italian-basil-essence.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "italian-bergamot",
     "name": "Italian Bergamot",
-    "image": "./images/italian-bergamot.jpg"
+    "image": "italian-bergamot.jpg",
+    "family": "citrus",
+    "type": "top"
   },
   {
+    "slug": "italian-blood-orange-essence",
     "name": "Italian Blood Orange Essence",
-    "image": "./images/italian-blood-orange-essence.jpg"
+    "image": "italian-blood-orange-essence.jpg",
+    "family": "citrus",
+    "type": "top"
   },
   {
+    "slug": "italian-citrus",
     "name": "Italian Citrus",
-    "image": "./images/italian-citrus.jpg"
+    "image": "italian-citrus.jpg",
+    "family": "citrus",
+    "type": "top"
   },
   {
+    "slug": "italian-rosemary",
     "name": "Italian Rosemary",
-    "image": "./images/italian-rosemary.jpg"
+    "image": "italian-rosemary.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "italian-tangerine",
     "name": "Italian Tangerine",
-    "image": "./images/italian-tangerine.jpg"
+    "image": "italian-tangerine.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "ivy-grapefruit",
     "name": "Ivy Grapefruit",
-    "image": "./images/ivy-grapefruit.jpg"
+    "image": "ivy-grapefruit.jpg",
+    "family": "citrus",
+    "type": "top",
+    "families": [
+      "citrus",
+      "fruity"
+    ]
   },
   {
+    "slug": "jamaican-rum",
     "name": "Jamaican Rum",
-    "image": "./images/jamaican-rum.jpg"
+    "image": "jamaican-rum.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "jasmin",
     "name": "Jasmin",
-    "image": "./images/jasmin.jpg"
+    "image": "jasmin.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "jasmin-absolute",
     "name": "Jasmin Absolute",
-    "image": "./images/jasmin-absolute.jpg"
+    "image": "jasmin-absolute.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "jasmine",
     "name": "Jasmine",
-    "image": "./images/jasmine.jpg"
+    "image": "jasmine.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "jasmine-coeur-de-saison",
     "name": "Jasmine Coeur de Saison",
-    "image": "./images/jasmine-coeur-de-saison.jpg"
+    "image": "jasmine-coeur-de-saison.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "jasmine-lmr",
     "name": "Jasmine LMR",
-    "image": "./images/jasmine-lmr.jpg"
+    "image": "jasmine-lmr.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "jasmine-petals",
     "name": "Jasmine Petals",
-    "image": "./images/jasmine-petals.jpg"
+    "image": "jasmine-petals.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "jasmine-water",
     "name": "Jasmine Water",
-    "image": "./images/jasmine-water.jpg"
+    "image": "jasmine-water.jpg",
+    "family": "floral",
+    "type": "top",
+    "families": [
+      "floral",
+      "aquatic"
+    ]
   },
   {
+    "slug": "juicy-pear",
     "name": "Juicy Pear",
-    "image": "./images/juicy-pear.jpg"
+    "image": "juicy-pear.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "juicy-tangerine",
     "name": "Juicy Tangerine",
-    "image": "./images/juicy-tangerine.jpg"
+    "image": "juicy-tangerine.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "juniper-berries-essence",
     "name": "Juniper Berries Essence",
-    "image": "./images/juniper-berries-essence.jpg"
+    "image": "juniper-berries-essence.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "juniper-berry",
     "name": "Juniper Berry",
-    "image": "./images/juniper-berry.jpg"
+    "image": "juniper-berry.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "juniper-berry-oil",
     "name": "Juniper Berry Oil",
-    "image": "./images/juniper-berry-oil.jpg"
+    "image": "juniper-berry-oil.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "labdanum",
     "name": "Labdanum",
-    "image": "./images/labdanum.jpg"
+    "image": "labdanum.jpg",
+    "family": "amber",
+    "type": "base"
   },
   {
+    "slug": "lactonic",
     "name": "Lactonic",
-    "image": "./images/lactonic.jpg"
+    "image": "lactonic.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "lavender",
     "name": "Lavender",
-    "image": "./images/lavender.jpg"
+    "image": "lavender.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "lavender-absolute-lmr",
     "name": "Lavender Absolute LMR",
-    "image": "./images/lavender-absolute-lmr.jpg"
+    "image": "lavender-absolute-lmr.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "lavender-blossom",
     "name": "Lavender Blossom",
-    "image": "./images/lavender-blossom.jpg"
+    "image": "lavender-blossom.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "lavender-essence",
     "name": "Lavender Essence",
-    "image": "./images/lavender-essence.jpg"
+    "image": "lavender-essence.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "lavender-musk",
     "name": "Lavender Musk",
-    "image": "./images/lavender-musk.jpg"
+    "image": "lavender-musk.jpg",
+    "family": "floral",
+    "type": "middle",
+    "families": [
+      "floral",
+      "musky"
+    ]
   },
   {
+    "slug": "leather",
     "name": "Leather",
-    "image": "./images/leather.jpg"
+    "image": "leather.jpg",
+    "family": "smoky",
+    "type": "base"
   },
   {
+    "slug": "lemon",
     "name": "Lemon",
-    "image": "./images/lemon.jpg"
+    "image": "lemon.jpg",
+    "family": "citrus",
+    "type": "top"
   },
   {
+    "slug": "lemon-blossoms",
     "name": "Lemon Blossoms",
-    "image": "./images/lemon-blossoms.jpg"
+    "image": "lemon-blossoms.jpg",
+    "family": "citrus",
+    "type": "top",
+    "families": [
+      "citrus",
+      "floral"
+    ]
   },
   {
+    "slug": "lemon-leaves",
     "name": "Lemon Leaves",
-    "image": "./images/lemon-leaves.jpg"
+    "image": "lemon-leaves.jpg",
+    "family": "citrus",
+    "type": "top",
+    "families": [
+      "citrus",
+      "green"
+    ]
   },
   {
+    "slug": "lemon-peel",
     "name": "Lemon Peel",
-    "image": "./images/lemon-peel.jpg"
+    "image": "lemon-peel.jpg",
+    "family": "citrus",
+    "type": "top"
   },
   {
+    "slug": "lemon-sfuma",
     "name": "Lemon Sfuma",
-    "image": "./images/lemon-sfuma.jpg"
+    "image": "lemon-sfuma.jpg",
+    "family": "citrus",
+    "type": "top"
   },
   {
+    "slug": "lilacs",
     "name": "Lilacs",
-    "image": "./images/lilacs.jpg"
+    "image": "lilacs.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "lily-of-the-valley",
     "name": "Lily of the Valley",
-    "image": "./images/lily-of-the-valley.jpg"
+    "image": "lily-of-the-valley.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "lily-of-the-valley-muguet",
     "name": "Lily of the Valley (Muguet)",
-    "image": "./images/lily-of-the-valley-_muguet_.jpg"
+    "image": "lily-of-the-valley-_muguet_.jpg",
+    "family": "floral",
+    "type": "middle",
+    "aliases": [
+      "lily of the valley muguet"
+    ]
   },
   {
+    "slug": "lily-of-the-valley-molecule",
     "name": "Lily of the Valley Molecule",
-    "image": "./images/lily-of-the-valley-molecule.jpg"
+    "image": "lily-of-the-valley-molecule.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "lotus",
     "name": "Lotus",
-    "image": "./images/lotus.jpg"
+    "image": "lotus.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "lotus-blossom",
     "name": "Lotus Blossom",
-    "image": "./images/lotus-blossom.jpg"
+    "image": "lotus-blossom.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "luscious-rose",
     "name": "Luscious Rose",
-    "image": "./images/luscious-rose.jpg"
+    "image": "luscious-rose.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "lychee-accord",
     "name": "Lychee Accord",
-    "image": "./images/lychee-accord.jpg"
+    "image": "lychee-accord.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "lys-flower",
     "name": "Lys Flower",
-    "image": "./images/lys-flower.jpg"
+    "image": "lys-flower.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "madagascan-vanilla",
     "name": "Madagascan Vanilla",
-    "image": "./images/madagascan-vanilla.jpg"
+    "image": "madagascan-vanilla.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "madagascan-vanilla-bourbon-absolute",
     "name": "Madagascan Vanilla Bourbon Absolute",
-    "image": "./images/madagascan-vanilla-bourbon-absolute.jpg"
+    "image": "madagascan-vanilla-bourbon-absolute.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "malabar-black-pepper",
     "name": "Malabar Black Pepper",
-    "image": "./images/malabar-black-pepper.jpg"
+    "image": "malabar-black-pepper.jpg",
+    "family": "spicy",
+    "type": "middle"
   },
   {
+    "slug": "malabar-pepper",
     "name": "Malabar Pepper",
-    "image": "./images/malabar-pepper.jpg"
+    "image": "malabar-pepper.jpg",
+    "family": "spicy",
+    "type": "middle"
   },
   {
+    "slug": "maltol-sweet-note",
     "name": "Maltol (Sweet Note)",
-    "image": "./images/maltol-_sweet-note_.jpg"
+    "image": "maltol-_sweet-note_.jpg",
+    "family": "other",
+    "type": "other",
+    "aliases": [
+      "maltol sweet note"
+    ]
   },
   {
+    "slug": "mandarin-leaves",
     "name": "Mandarin Leaves",
-    "image": "./images/mandarin-leaves.jpg"
+    "image": "mandarin-leaves.jpg",
+    "family": "citrus",
+    "type": "top",
+    "families": [
+      "citrus",
+      "fruity",
+      "green"
+    ]
   },
   {
+    "slug": "mandarin-oil",
     "name": "Mandarin Oil",
-    "image": "./images/mandarin-oil.jpg"
+    "image": "mandarin-oil.jpg",
+    "family": "citrus",
+    "type": "top",
+    "families": [
+      "citrus",
+      "fruity"
+    ]
   },
   {
+    "slug": "marine-accord",
     "name": "Marine Accord",
-    "image": "./images/marine-accord.jpg"
+    "image": "marine-accord.jpg",
+    "family": "aquatic",
+    "type": "top"
   },
   {
+    "slug": "marine-mist",
     "name": "Marine Mist",
-    "image": "./images/marine-mist.jpg"
+    "image": "marine-mist.jpg",
+    "family": "aquatic",
+    "type": "top"
   },
   {
+    "slug": "mastic",
     "name": "Mastic",
-    "image": "./images/mastic.jpg"
+    "image": "mastic.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "mate-tea",
     "name": "Mate Tea",
-    "image": "./images/mate-tea.jpg"
+    "image": "mate-tea.jpg",
+    "family": "green",
+    "type": "top"
   },
   {
+    "slug": "mediterranean-pine-needles",
     "name": "Mediterranean Pine Needles",
-    "image": "./images/mediterranean-pine-needles.jpg"
+    "image": "mediterranean-pine-needles.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "medjool-date",
     "name": "Medjool Date",
-    "image": "./images/medjool-date.jpg"
+    "image": "medjool-date.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "merlot",
     "name": "Merlot",
-    "image": "./images/merlot.jpg"
+    "image": "merlot.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "merlot-wine",
     "name": "Merlot Wine",
-    "image": "./images/merlot-wine.jpg"
+    "image": "merlot-wine.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "mexican-citrus",
     "name": "Mexican Citrus",
-    "image": "./images/mexican-citrus.jpg"
+    "image": "mexican-citrus.jpg",
+    "family": "citrus",
+    "type": "top"
   },
   {
+    "slug": "mexican-guava-fruit",
     "name": "Mexican Guava Fruit",
-    "image": "./images/mexican-guava-fruit.jpg"
+    "image": "mexican-guava-fruit.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "midnight-orchid",
     "name": "Midnight Orchid",
-    "image": "./images/midnight-orchid.jpg"
+    "image": "midnight-orchid.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "milky-accord",
     "name": "Milky Accord",
-    "image": "./images/milky-accord.jpg"
+    "image": "milky-accord.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "mimosa",
     "name": "Mimosa",
-    "image": "./images/mimosa.jpg"
+    "image": "mimosa.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "mimosa-absolute",
     "name": "Mimosa Absolute",
-    "image": "./images/mimosa-absolute.jpg"
+    "image": "mimosa-absolute.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "mimosa-flower",
     "name": "Mimosa Flower",
-    "image": "./images/mimosa-flower.jpg"
+    "image": "mimosa-flower.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "mint",
     "name": "Mint",
-    "image": "./images/mint.jpg"
+    "image": "mint.jpg",
+    "family": "green",
+    "type": "top"
   },
   {
+    "slug": "mixed-florals",
     "name": "Mixed Florals",
-    "image": "./images/mixed-florals.jpg"
+    "image": "mixed-florals.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "modern-woods",
     "name": "Modern Woods",
-    "image": "./images/modern-woods.jpg"
+    "image": "modern-woods.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "molton-amber",
     "name": "Molton Amber",
-    "image": "./images/molton-amber.jpg"
+    "image": "molton-amber.jpg",
+    "family": "amber",
+    "type": "base"
   },
   {
+    "slug": "montezuma-cypress",
     "name": "Montezuma Cypress",
-    "image": "./images/montezuma-cypress.jpg"
+    "image": "montezuma-cypress.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "moon-flower",
     "name": "Moon Flower",
-    "image": "./images/moon-flower.jpg"
+    "image": "moon-flower.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "moroccan-mint-tea",
     "name": "Moroccan Mint Tea",
-    "image": "./images/moroccan-mint-tea.jpg"
+    "image": "moroccan-mint-tea.jpg",
+    "family": "green",
+    "type": "top"
   },
   {
+    "slug": "moss",
     "name": "Moss",
-    "image": "./images/moss.jpg"
+    "image": "moss.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "muguet",
     "name": "Muguet",
-    "image": "./images/muguet.jpg"
+    "image": "muguet.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "muscs-blancs",
     "name": "Muscs Blancs",
-    "image": "./images/muscs-blancs.jpg"
+    "image": "muscs-blancs.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "musk",
     "name": "Musk",
-    "image": "./images/musk.jpg"
+    "image": "musk.jpg",
+    "family": "musky",
+    "type": "base"
   },
   {
+    "slug": "musks",
     "name": "Musks",
-    "image": "./images/musks.jpg"
+    "image": "musks.jpg",
+    "family": "musky",
+    "type": "base"
   },
   {
+    "slug": "nashi-pear",
     "name": "Nashi Pear",
-    "image": "./images/nashi-pear.jpg"
+    "image": "nashi-pear.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "natural-coconut",
     "name": "Natural Coconut",
-    "image": "./images/natural-coconut.jpg"
+    "image": "natural-coconut.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "neroli-oil-morocco",
     "name": "Neroli Oil Morocco",
-    "image": "./images/neroli-oil-morocco.jpg"
+    "image": "neroli-oil-morocco.jpg",
+    "family": "citrus",
+    "type": "top",
+    "families": [
+      "citrus",
+      "floral"
+    ]
   },
   {
+    "slug": "nutmeg",
     "name": "Nutmeg",
-    "image": "./images/nutmeg.jpg"
+    "image": "nutmeg.jpg",
+    "family": "spicy",
+    "type": "middle"
   },
   {
+    "slug": "oak-chip",
     "name": "Oak Chip",
-    "image": "./images/oak-chip.jpg"
+    "image": "oak-chip.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "oakmoss",
     "name": "Oakmoss",
-    "image": "./images/oakmoss.jpg"
+    "image": "oakmoss.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "oakwood-upcycled",
     "name": "Oakwood (Upcycled)",
-    "image": "./images/oakwood-_upcycled_.jpg"
+    "image": "oakwood-_upcycled_.jpg",
+    "family": "woody",
+    "type": "base",
+    "aliases": [
+      "oakwood upcycled"
+    ]
   },
   {
+    "slug": "ocean-water-accord",
     "name": "Ocean Water Accord",
-    "image": "./images/ocean-water-accord.jpg"
+    "image": "ocean-water-accord.jpg",
+    "family": "aquatic",
+    "type": "top"
   },
   {
+    "slug": "orange",
     "name": "Orange",
-    "image": "./images/orange.jpg"
+    "image": "orange.jpg",
+    "family": "citrus",
+    "type": "top"
   },
   {
+    "slug": "orange-bitters",
     "name": "Orange Bitters",
-    "image": "./images/orange-bitters.jpg"
+    "image": "orange-bitters.jpg",
+    "family": "citrus",
+    "type": "top"
   },
   {
+    "slug": "orange-blossom",
     "name": "Orange Blossom",
-    "image": "./images/orange-blossom.jpg"
+    "image": "orange-blossom.jpg",
+    "family": "citrus",
+    "type": "top",
+    "families": [
+      "citrus",
+      "floral"
+    ]
   },
   {
+    "slug": "orange-flower-absolute",
     "name": "Orange Flower Absolute",
-    "image": "./images/orange-flower-absolute.jpg"
+    "image": "orange-flower-absolute.jpg",
+    "family": "citrus",
+    "type": "top",
+    "families": [
+      "citrus",
+      "floral"
+    ]
   },
   {
+    "slug": "orange-leaves-absolute",
     "name": "Orange Leaves Absolute",
-    "image": "./images/orange-leaves-absolute.jpg"
+    "image": "orange-leaves-absolute.jpg",
+    "family": "citrus",
+    "type": "top",
+    "families": [
+      "citrus",
+      "green"
+    ]
   },
   {
+    "slug": "orange-oil",
     "name": "Orange Oil",
-    "image": "./images/orange-oil.jpg"
+    "image": "orange-oil.jpg",
+    "family": "citrus",
+    "type": "top"
   },
   {
+    "slug": "orchid",
     "name": "Orchid",
-    "image": "./images/orchid.jpg"
+    "image": "orchid.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
-    "name": "Orris Concentr\u00e9",
-    "image": "./images/orris-concentr\u00e9.jpg"
+    "slug": "orris-concentre",
+    "name": "Orris Concentré",
+    "image": "orris-concentré.jpg",
+    "family": "other",
+    "type": "other",
+    "aliases": [
+      "orris concentre"
+    ]
   },
   {
+    "slug": "orris-concrete",
     "name": "Orris Concrete",
-    "image": "./images/orris-concrete.jpg"
+    "image": "orris-concrete.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "oud",
     "name": "Oud",
-    "image": "./images/oud.jpg"
+    "image": "oud.jpg",
+    "family": "woody",
+    "type": "base",
+    "families": [
+      "woody",
+      "smoky"
+    ]
   },
   {
+    "slug": "oud-assafi",
     "name": "Oud Assafi",
-    "image": "./images/oud-assafi.jpg"
+    "image": "oud-assafi.jpg",
+    "family": "woody",
+    "type": "base",
+    "families": [
+      "woody",
+      "smoky"
+    ]
   },
   {
+    "slug": "oud-essence",
     "name": "Oud Essence",
-    "image": "./images/oud-essence.jpg"
+    "image": "oud-essence.jpg",
+    "family": "woody",
+    "type": "base",
+    "families": [
+      "woody",
+      "smoky"
+    ]
   },
   {
+    "slug": "oud-wood",
     "name": "Oud Wood",
-    "image": "./images/oud-wood.jpg"
+    "image": "oud-wood.jpg",
+    "family": "woody",
+    "type": "base",
+    "families": [
+      "woody",
+      "smoky"
+    ]
   },
   {
+    "slug": "ouzo-accord",
     "name": "Ouzo Accord",
-    "image": "./images/ouzo-accord.jpg"
+    "image": "ouzo-accord.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "patchouli",
     "name": "Patchouli",
-    "image": "./images/patchouli.jpg"
+    "image": "patchouli.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "patchouli-essence",
     "name": "Patchouli Essence",
-    "image": "./images/patchouli-essence.jpg"
+    "image": "patchouli-essence.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "patchouli-fraction",
     "name": "Patchouli Fraction",
-    "image": "./images/patchouli-fraction.jpg"
+    "image": "patchouli-fraction.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "patchouli-heart",
     "name": "Patchouli Heart",
-    "image": "./images/patchouli-heart.jpg"
+    "image": "patchouli-heart.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "patchouli-oil",
     "name": "Patchouli Oil",
-    "image": "./images/patchouli-oil.jpg"
+    "image": "patchouli-oil.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "peach",
     "name": "Peach",
-    "image": "./images/peach.jpg"
+    "image": "peach.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "peach-skin",
     "name": "Peach Skin",
-    "image": "./images/peach-skin.jpg"
+    "image": "peach-skin.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "pear",
     "name": "Pear",
-    "image": "./images/pear.jpg"
+    "image": "pear.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "pear-granita",
     "name": "Pear Granita",
-    "image": "./images/pear-granita.jpg"
+    "image": "pear-granita.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "pear-nectar",
     "name": "Pear Nectar",
-    "image": "./images/pear-nectar.jpg"
+    "image": "pear-nectar.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "peony",
     "name": "Peony",
-    "image": "./images/peony.jpg"
+    "image": "peony.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "peony-petals",
     "name": "Peony Petals",
-    "image": "./images/peony-petals.jpg"
+    "image": "peony-petals.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "pepper",
     "name": "Pepper",
-    "image": "./images/pepper.jpg"
+    "image": "pepper.jpg",
+    "family": "spicy",
+    "type": "middle"
   },
   {
+    "slug": "peppermint-essence",
     "name": "Peppermint Essence",
-    "image": "./images/peppermint-essence.jpg"
+    "image": "peppermint-essence.jpg",
+    "family": "spicy",
+    "type": "top",
+    "families": [
+      "spicy",
+      "green"
+    ]
   },
   {
+    "slug": "pepperwood",
     "name": "Pepperwood",
-    "image": "./images/pepperwood.jpg"
+    "image": "pepperwood.jpg",
+    "family": "woody",
+    "type": "middle",
+    "families": [
+      "woody",
+      "spicy"
+    ]
   },
   {
+    "slug": "persian-lime",
     "name": "Persian Lime",
-    "image": "./images/persian-lime.jpg"
+    "image": "persian-lime.jpg",
+    "family": "citrus",
+    "type": "top"
   },
   {
+    "slug": "persian-saffron",
     "name": "Persian Saffron",
-    "image": "./images/persian-saffron.jpg"
+    "image": "persian-saffron.jpg",
+    "family": "spicy",
+    "type": "middle"
   },
   {
+    "slug": "petitgrain-bigarade",
     "name": "Petitgrain Bigarade",
-    "image": "./images/petitgrain-bigarade.jpg"
+    "image": "petitgrain-bigarade.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "pineapple",
     "name": "Pineapple",
-    "image": "./images/pineapple.jpg"
+    "image": "pineapple.jpg",
+    "family": "fruity",
+    "type": "middle",
+    "families": [
+      "fruity",
+      "woody"
+    ]
   },
   {
+    "slug": "pink-freesia",
     "name": "Pink Freesia",
-    "image": "./images/pink-freesia.jpg"
+    "image": "pink-freesia.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "pink-lady-apple",
     "name": "Pink Lady Apple",
-    "image": "./images/pink-lady-apple.jpg"
+    "image": "pink-lady-apple.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "pink-lily",
     "name": "Pink Lily",
-    "image": "./images/pink-lily.jpg"
+    "image": "pink-lily.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "pink-magnolia",
     "name": "Pink Magnolia",
-    "image": "./images/pink-magnolia.jpg"
+    "image": "pink-magnolia.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "pink-pepper",
     "name": "Pink Pepper",
-    "image": "./images/pink-pepper.jpg"
+    "image": "pink-pepper.jpg",
+    "family": "spicy",
+    "type": "middle"
   },
   {
-    "name": "Pink Pepper CO\u2082",
-    "image": "./images/pink-pepper-co\u2082.jpg"
+    "slug": "pink-pepper-co2",
+    "name": "Pink Pepper CO₂",
+    "image": "pink-pepper-co₂.jpg",
+    "family": "spicy",
+    "type": "middle",
+    "aliases": [
+      "pink pepper co2"
+    ]
   },
   {
+    "slug": "pink-pepper-leaf",
     "name": "Pink Pepper Leaf",
-    "image": "./images/pink-pepper-leaf.jpg"
+    "image": "pink-pepper-leaf.jpg",
+    "family": "spicy",
+    "type": "top",
+    "families": [
+      "spicy",
+      "green"
+    ]
   },
   {
+    "slug": "pink-salt",
     "name": "Pink Salt",
-    "image": "./images/pink-salt.jpg"
+    "image": "pink-salt.jpg",
+    "family": "aquatic",
+    "type": "top"
   },
   {
+    "slug": "pistachio-accord",
     "name": "Pistachio Accord",
-    "image": "./images/pistachio-accord.jpg"
+    "image": "pistachio-accord.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "pistachio-leaf",
     "name": "Pistachio Leaf",
-    "image": "./images/pistachio-leaf.jpg"
+    "image": "pistachio-leaf.jpg",
+    "family": "green",
+    "type": "top"
   },
   {
+    "slug": "plum",
     "name": "Plum",
-    "image": "./images/plum.jpg"
+    "image": "plum.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "plum-butter",
     "name": "Plum Butter",
-    "image": "./images/plum-butter.jpg"
+    "image": "plum-butter.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "plum-peach",
     "name": "Plum Peach",
-    "image": "./images/plum-peach.jpg"
+    "image": "plum-peach.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "powdery-musk",
     "name": "Powdery Musk",
-    "image": "./images/powdery-musk.jpg"
+    "image": "powdery-musk.jpg",
+    "family": "musky",
+    "type": "base"
   },
   {
+    "slug": "pure-vanilla",
     "name": "Pure Vanilla",
-    "image": "./images/pure-vanilla.jpg"
+    "image": "pure-vanilla.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "purple-passion-fruit",
     "name": "Purple Passion Fruit",
-    "image": "./images/purple-passion-fruit.jpg"
+    "image": "purple-passion-fruit.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "rare-amber-wood",
     "name": "Rare Amber Wood",
-    "image": "./images/rare-amber-wood.jpg"
+    "image": "rare-amber-wood.jpg",
+    "family": "woody",
+    "type": "base",
+    "families": [
+      "woody",
+      "amber"
+    ]
   },
   {
+    "slug": "raspberry",
     "name": "Raspberry",
-    "image": "./images/raspberry.jpg"
+    "image": "raspberry.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "red-apple-skin",
     "name": "Red Apple Skin",
-    "image": "./images/red-apple-skin.jpg"
+    "image": "red-apple-skin.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "red-eucalyptus",
     "name": "Red Eucalyptus",
-    "image": "./images/red-eucalyptus.jpg"
+    "image": "red-eucalyptus.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "red-lychee",
     "name": "Red Lychee",
-    "image": "./images/red-lychee.jpg"
+    "image": "red-lychee.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "resin",
     "name": "Resin",
-    "image": "./images/resin.jpg"
+    "image": "resin.jpg",
+    "family": "amber",
+    "type": "base"
   },
   {
+    "slug": "rhum",
     "name": "Rhum",
-    "image": "./images/rhum.jpg"
+    "image": "rhum.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "rice-accord",
     "name": "Rice Accord",
-    "image": "./images/rice-accord.jpg"
+    "image": "rice-accord.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "rice-milk",
     "name": "Rice Milk",
-    "image": "./images/rice-milk.jpg"
+    "image": "rice-milk.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "ripe-plum",
     "name": "Ripe Plum",
-    "image": "./images/ripe-plum.jpg"
+    "image": "ripe-plum.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "ripe-tomato",
     "name": "Ripe Tomato",
-    "image": "./images/ripe-tomato.jpg"
+    "image": "ripe-tomato.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "roasted-chestnuts",
     "name": "Roasted Chestnuts",
-    "image": "./images/roasted-chestnuts.jpg"
+    "image": "roasted-chestnuts.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "roasted-cocoa",
     "name": "Roasted Cocoa",
-    "image": "./images/roasted-cocoa.jpg"
+    "image": "roasted-cocoa.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "roman-chamomile",
     "name": "Roman Chamomile",
-    "image": "./images/roman-chamomile.jpg"
+    "image": "roman-chamomile.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "rose",
     "name": "Rose",
-    "image": "./images/rose.jpg"
+    "image": "rose.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "rose-absolute",
     "name": "Rose Absolute",
-    "image": "./images/rose-absolute.jpg"
+    "image": "rose-absolute.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "rose-absolutes",
     "name": "Rose Absolutes",
-    "image": "./images/rose-absolutes.jpg"
+    "image": "rose-absolutes.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "rose-bouquet",
     "name": "Rose Bouquet",
-    "image": "./images/rose-bouquet.jpg"
+    "image": "rose-bouquet.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "rose-bulgaria-oil",
     "name": "Rose Bulgaria Oil",
-    "image": "./images/rose-bulgaria-oil.jpg"
+    "image": "rose-bulgaria-oil.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "rose-damascena-absolute",
     "name": "Rose Damascena Absolute",
-    "image": "./images/rose-damascena-absolute.jpg"
+    "image": "rose-damascena-absolute.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "rose-essence",
     "name": "Rose Essence",
-    "image": "./images/rose-essence.jpg"
+    "image": "rose-essence.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "rosebuds",
     "name": "Rosebuds",
-    "image": "./images/rosebuds.jpg"
+    "image": "rosebuds.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "rosoxydes",
     "name": "Rosoxydes",
-    "image": "./images/rosoxydes.jpg"
+    "image": "rosoxydes.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "ruby-grapefruit",
     "name": "Ruby Grapefruit",
-    "image": "./images/ruby-grapefruit.jpg"
+    "image": "ruby-grapefruit.jpg",
+    "family": "citrus",
+    "type": "top",
+    "families": [
+      "citrus",
+      "fruity"
+    ]
   },
   {
+    "slug": "ruby-pamplemousse",
     "name": "Ruby Pamplemousse",
-    "image": "./images/ruby-pamplemousse.jpg"
+    "image": "ruby-pamplemousse.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "saddle-leather",
     "name": "Saddle Leather",
-    "image": "./images/saddle-leather.jpg"
+    "image": "saddle-leather.jpg",
+    "family": "smoky",
+    "type": "base"
   },
   {
+    "slug": "sage-essence",
     "name": "Sage Essence",
-    "image": "./images/sage-essence.jpg"
+    "image": "sage-essence.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "saigon-cinnamon",
     "name": "Saigon Cinnamon",
-    "image": "./images/saigon-cinnamon.jpg"
+    "image": "saigon-cinnamon.jpg",
+    "family": "spicy",
+    "type": "middle"
   },
   {
+    "slug": "sakura-flower",
     "name": "Sakura Flower",
-    "image": "./images/sakura-flower.jpg"
+    "image": "sakura-flower.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "salt",
     "name": "Salt",
-    "image": "./images/salt.jpg"
+    "image": "salt.jpg",
+    "family": "aquatic",
+    "type": "top"
   },
   {
+    "slug": "salt-water",
     "name": "Salt Water",
-    "image": "./images/salt-water.jpg"
+    "image": "salt-water.jpg",
+    "family": "aquatic",
+    "type": "top"
   },
   {
+    "slug": "salty-mineral-accord",
     "name": "Salty Mineral Accord",
-    "image": "./images/salty-mineral-accord.jpg"
+    "image": "salty-mineral-accord.jpg",
+    "family": "aquatic",
+    "type": "top"
   },
   {
+    "slug": "salty-neroli",
     "name": "Salty Neroli",
-    "image": "./images/salty-neroli.jpg"
+    "image": "salty-neroli.jpg",
+    "family": "citrus",
+    "type": "top",
+    "families": [
+      "citrus",
+      "floral",
+      "aquatic"
+    ]
   },
   {
+    "slug": "salty-vanilla",
     "name": "Salty Vanilla",
-    "image": "./images/salty-vanilla.jpg"
+    "image": "salty-vanilla.jpg",
+    "family": "gourmand",
+    "type": "top",
+    "families": [
+      "gourmand",
+      "aquatic"
+    ]
   },
   {
+    "slug": "sandalwood",
     "name": "Sandalwood",
-    "image": "./images/sandalwood.jpg"
+    "image": "sandalwood.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "sandalwood-new-caledonia-lmr",
     "name": "Sandalwood New Caledonia LMR",
-    "image": "./images/sandalwood-new-caledonia-lmr.jpg"
+    "image": "sandalwood-new-caledonia-lmr.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "sandalwood-oil",
     "name": "Sandalwood Oil",
-    "image": "./images/sandalwood-oil.jpg"
+    "image": "sandalwood-oil.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "sauvignon-blanc-accord",
     "name": "Sauvignon Blanc Accord",
-    "image": "./images/sauvignon-blanc-accord.jpg"
+    "image": "sauvignon-blanc-accord.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "sea-kelp",
     "name": "Sea Kelp",
-    "image": "./images/sea-kelp.jpg"
+    "image": "sea-kelp.jpg",
+    "family": "aquatic",
+    "type": "top"
   },
   {
+    "slug": "sea-salt",
     "name": "Sea Salt",
-    "image": "./images/sea-salt.jpg"
+    "image": "sea-salt.jpg",
+    "family": "aquatic",
+    "type": "top"
   },
   {
+    "slug": "sea-salt-accord",
     "name": "Sea Salt Accord",
-    "image": "./images/sea-salt-accord.jpg"
+    "image": "sea-salt-accord.jpg",
+    "family": "aquatic",
+    "type": "top"
   },
   {
+    "slug": "sea-spray",
     "name": "Sea Spray",
-    "image": "./images/sea-spray.jpg"
+    "image": "sea-spray.jpg",
+    "family": "aquatic",
+    "type": "top"
   },
   {
+    "slug": "sensual-musk",
     "name": "Sensual Musk",
-    "image": "./images/sensual-musk.jpg"
+    "image": "sensual-musk.jpg",
+    "family": "musky",
+    "type": "base"
   },
   {
+    "slug": "sensual-skin-musk",
     "name": "Sensual Skin Musk",
-    "image": "./images/sensual-skin-musk.jpg"
+    "image": "sensual-skin-musk.jpg",
+    "family": "musky",
+    "type": "base"
   },
   {
+    "slug": "sheer-amber",
     "name": "Sheer Amber",
-    "image": "./images/sheer-amber.jpg"
+    "image": "sheer-amber.jpg",
+    "family": "amber",
+    "type": "base"
   },
   {
+    "slug": "sheer-linen",
     "name": "Sheer Linen",
-    "image": "./images/sheer-linen.jpg"
+    "image": "sheer-linen.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "sheer-musk",
     "name": "Sheer Musk",
-    "image": "./images/sheer-musk.jpg"
+    "image": "sheer-musk.jpg",
+    "family": "musky",
+    "type": "base"
   },
   {
+    "slug": "sheer-musks",
     "name": "Sheer Musks",
-    "image": "./images/sheer-musks.jpg"
+    "image": "sheer-musks.jpg",
+    "family": "musky",
+    "type": "base"
   },
   {
+    "slug": "shooting-star-blooms",
     "name": "Shooting Star Blooms",
-    "image": "./images/shooting-star-blooms.jpg"
+    "image": "shooting-star-blooms.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "sicilian-bergamot",
     "name": "Sicilian Bergamot",
-    "image": "./images/sicilian-bergamot.jpg"
+    "image": "sicilian-bergamot.jpg",
+    "family": "citrus",
+    "type": "top"
   },
   {
+    "slug": "silver-rose",
     "name": "Silver Rose",
-    "image": "./images/silver-rose.jpg"
+    "image": "silver-rose.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "smoked-amber",
     "name": "Smoked Amber",
-    "image": "./images/smoked-amber.jpg"
+    "image": "smoked-amber.jpg",
+    "family": "amber",
+    "type": "base",
+    "families": [
+      "amber",
+      "smoky"
+    ]
   },
   {
+    "slug": "smoked-sage",
     "name": "Smoked Sage",
-    "image": "./images/smoked-sage.jpg"
+    "image": "smoked-sage.jpg",
+    "family": "smoky",
+    "type": "base"
   },
   {
+    "slug": "smoky-oud",
     "name": "Smoky Oud",
-    "image": "./images/smoky-oud.jpg"
+    "image": "smoky-oud.jpg",
+    "family": "woody",
+    "type": "base",
+    "families": [
+      "woody",
+      "smoky"
+    ]
   },
   {
+    "slug": "soft-leather",
     "name": "Soft Leather",
-    "image": "./images/soft-leather.jpg"
+    "image": "soft-leather.jpg",
+    "family": "smoky",
+    "type": "base"
   },
   {
+    "slug": "southern-magnolia",
     "name": "Southern Magnolia",
-    "image": "./images/southern-magnolia.jpg"
+    "image": "southern-magnolia.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "sparkling-pear",
     "name": "Sparkling Pear",
-    "image": "./images/sparkling-pear.jpg"
+    "image": "sparkling-pear.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "spiced-bark",
     "name": "Spiced Bark",
-    "image": "./images/spiced-bark.jpg"
+    "image": "spiced-bark.jpg",
+    "family": "spicy",
+    "type": "middle"
   },
   {
+    "slug": "spiced-lemon",
     "name": "Spiced Lemon",
-    "image": "./images/spiced-lemon.jpg"
+    "image": "spiced-lemon.jpg",
+    "family": "citrus",
+    "type": "top",
+    "families": [
+      "citrus",
+      "spicy"
+    ]
   },
   {
+    "slug": "spices",
     "name": "Spices",
-    "image": "./images/spices.jpg"
+    "image": "spices.jpg",
+    "family": "spicy",
+    "type": "middle"
   },
   {
+    "slug": "spicy-lily",
     "name": "Spicy Lily",
-    "image": "./images/spicy-lily.jpg"
+    "image": "spicy-lily.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "spritz-accord",
     "name": "Spritz Accord",
-    "image": "./images/spritz-accord.jpg"
+    "image": "spritz-accord.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "spun-sugar",
     "name": "Spun Sugar",
-    "image": "./images/spun-sugar.jpg"
+    "image": "spun-sugar.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "strawberry-sugar",
     "name": "Strawberry Sugar",
-    "image": "./images/strawberry-sugar.jpg"
+    "image": "strawberry-sugar.jpg",
+    "family": "fruity",
+    "type": "middle",
+    "families": [
+      "fruity",
+      "gourmand"
+    ]
   },
   {
+    "slug": "strawberry-water",
     "name": "Strawberry Water",
-    "image": "./images/strawberry-water.jpg"
+    "image": "strawberry-water.jpg",
+    "family": "fruity",
+    "type": "top",
+    "families": [
+      "fruity",
+      "aquatic"
+    ]
   },
   {
+    "slug": "sugar-crystals",
     "name": "Sugar Crystals",
-    "image": "./images/sugar-crystals.jpg"
+    "image": "sugar-crystals.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "sugar-cube",
     "name": "Sugar Cube",
-    "image": "./images/sugar-cube.jpg"
+    "image": "sugar-cube.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "sugar-musk",
     "name": "Sugar Musk",
-    "image": "./images/sugar-musk.jpg"
+    "image": "sugar-musk.jpg",
+    "family": "gourmand",
+    "type": "base",
+    "families": [
+      "gourmand",
+      "musky"
+    ]
   },
   {
+    "slug": "sugared-almond",
     "name": "Sugared Almond",
-    "image": "./images/sugared-almond.jpg"
+    "image": "sugared-almond.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "sugared-milk-accord",
     "name": "Sugared Milk Accord",
-    "image": "./images/sugared-milk-accord.jpg"
+    "image": "sugared-milk-accord.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "summer-rain",
     "name": "Summer Rain",
-    "image": "./images/summer-rain.jpg"
+    "image": "summer-rain.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "sun-aged-leather",
     "name": "Sun Aged Leather",
-    "image": "./images/sun-aged-leather.jpg"
+    "image": "sun-aged-leather.jpg",
+    "family": "smoky",
+    "type": "base"
   },
   {
+    "slug": "sundrenched-skin",
     "name": "Sundrenched Skin",
-    "image": "./images/sundrenched-skin.jpg"
+    "image": "sundrenched-skin.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "sunlit-grapefruit",
     "name": "Sunlit Grapefruit",
-    "image": "./images/sunlit-grapefruit.jpg"
+    "image": "sunlit-grapefruit.jpg",
+    "family": "citrus",
+    "type": "top",
+    "families": [
+      "citrus",
+      "fruity"
+    ]
   },
   {
+    "slug": "sunny-dunes",
     "name": "Sunny Dunes",
-    "image": "./images/sunny-dunes.jpg"
+    "image": "sunny-dunes.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "sweet-bourbon",
     "name": "Sweet Bourbon",
-    "image": "./images/sweet-bourbon.jpg"
+    "image": "sweet-bourbon.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "sweet-coconut",
     "name": "Sweet Coconut",
-    "image": "./images/sweet-coconut.jpg"
+    "image": "sweet-coconut.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "sweet-earth",
     "name": "Sweet Earth",
-    "image": "./images/sweet-earth.jpg"
+    "image": "sweet-earth.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "sweet-herbs",
     "name": "Sweet Herbs",
-    "image": "./images/sweet-herbs.jpg"
+    "image": "sweet-herbs.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "sweet-jasmine",
     "name": "Sweet Jasmine",
-    "image": "./images/sweet-jasmine.jpg"
+    "image": "sweet-jasmine.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "sweet-mint",
     "name": "Sweet Mint",
-    "image": "./images/sweet-mint.jpg"
+    "image": "sweet-mint.jpg",
+    "family": "green",
+    "type": "top"
   },
   {
+    "slug": "sweet-orange",
     "name": "Sweet Orange",
-    "image": "./images/sweet-orange.jpg"
+    "image": "sweet-orange.jpg",
+    "family": "citrus",
+    "type": "top"
   },
   {
+    "slug": "sweet-pear",
     "name": "Sweet Pear",
-    "image": "./images/sweet-pear.jpg"
+    "image": "sweet-pear.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "sweet-raspberry",
     "name": "Sweet Raspberry",
-    "image": "./images/sweet-raspberry.jpg"
+    "image": "sweet-raspberry.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "sweet-tobacco",
     "name": "Sweet Tobacco",
-    "image": "./images/sweet-tobacco.jpg"
+    "image": "sweet-tobacco.jpg",
+    "family": "smoky",
+    "type": "base"
   },
   {
+    "slug": "sweet-vanilla",
     "name": "Sweet Vanilla",
-    "image": "./images/sweet-vanilla.jpg"
+    "image": "sweet-vanilla.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "sweetgrass",
     "name": "Sweetgrass",
-    "image": "./images/sweetgrass.jpg"
+    "image": "sweetgrass.jpg",
+    "family": "green",
+    "type": "top"
   },
   {
+    "slug": "tangelo",
     "name": "Tangelo",
-    "image": "./images/tangelo.jpg"
+    "image": "tangelo.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "tangerine-skin",
     "name": "Tangerine Skin",
-    "image": "./images/tangerine-skin.jpg"
+    "image": "tangerine-skin.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "tempting-musk",
     "name": "Tempting Musk",
-    "image": "./images/tempting-musk.jpg"
+    "image": "tempting-musk.jpg",
+    "family": "musky",
+    "type": "base"
   },
   {
+    "slug": "texas-cedarwood",
     "name": "Texas Cedarwood",
-    "image": "./images/texas-cedarwood.jpg"
+    "image": "texas-cedarwood.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "tiare-blossom",
     "name": "Tiare Blossom",
-    "image": "./images/tiare-blossom.jpg"
+    "image": "tiare-blossom.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "timut-pepper",
     "name": "Timut Pepper",
-    "image": "./images/timut-pepper.jpg"
+    "image": "timut-pepper.jpg",
+    "family": "spicy",
+    "type": "middle"
   },
   {
+    "slug": "toasted-almonds",
     "name": "Toasted almonds",
-    "image": "./images/toasted-almonds.jpg"
+    "image": "toasted-almonds.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "toasted-sesame",
     "name": "Toasted Sesame",
-    "image": "./images/toasted-sesame.jpg"
+    "image": "toasted-sesame.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "tobacco",
     "name": "Tobacco",
-    "image": "./images/tobacco.jpg"
+    "image": "tobacco.jpg",
+    "family": "smoky",
+    "type": "base"
   },
   {
+    "slug": "tobacco-accord",
     "name": "Tobacco Accord",
-    "image": "./images/tobacco-accord.jpg"
+    "image": "tobacco-accord.jpg",
+    "family": "smoky",
+    "type": "base"
   },
   {
+    "slug": "tobacco-flower",
     "name": "Tobacco Flower",
-    "image": "./images/tobacco-flower.jpg"
+    "image": "tobacco-flower.jpg",
+    "family": "floral",
+    "type": "middle",
+    "families": [
+      "floral",
+      "smoky"
+    ]
   },
   {
+    "slug": "tomato-leaves",
     "name": "Tomato Leaves",
-    "image": "./images/tomato-leaves.jpg"
+    "image": "tomato-leaves.jpg",
+    "family": "green",
+    "type": "top"
   },
   {
+    "slug": "tonka-bean",
     "name": "Tonka Bean",
-    "image": "./images/tonka-bean.jpg"
+    "image": "tonka-bean.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "tonka-bean-absolute",
     "name": "Tonka Bean Absolute",
-    "image": "./images/tonka-bean-absolute.jpg"
+    "image": "tonka-bean-absolute.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "tonka-beans",
     "name": "Tonka Beans",
-    "image": "./images/tonka-beans.jpg"
+    "image": "tonka-beans.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "tuberose",
     "name": "Tuberose",
-    "image": "./images/tuberose.jpg"
+    "image": "tuberose.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "turkish-rose-petal",
     "name": "Turkish Rose Petal",
-    "image": "./images/turkish-rose-petal.jpg"
+    "image": "turkish-rose-petal.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "turmeric-leaf-lmr",
     "name": "Turmeric Leaf LMR",
-    "image": "./images/turmeric-leaf-lmr.jpg"
+    "image": "turmeric-leaf-lmr.jpg",
+    "family": "green",
+    "type": "top"
   },
   {
+    "slug": "tuscan-fig",
     "name": "Tuscan Fig",
-    "image": "./images/tuscan-fig.jpg"
+    "image": "tuscan-fig.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "upcycled-eucalyptus",
     "name": "Upcycled Eucalyptus",
-    "image": "./images/upcycled-eucalyptus.jpg"
+    "image": "upcycled-eucalyptus.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "upcycled-natural-strawberry",
     "name": "Upcycled Natural Strawberry",
-    "image": "./images/upcycled-natural-strawberry.jpg"
+    "image": "upcycled-natural-strawberry.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "vanilla",
     "name": "Vanilla",
-    "image": "./images/vanilla.jpg"
+    "image": "vanilla.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "vanilla-birthday-cake",
     "name": "Vanilla Birthday Cake",
-    "image": "./images/vanilla-birthday-cake.jpg"
+    "image": "vanilla-birthday-cake.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "vanilla-bourbon-madagascar",
     "name": "Vanilla Bourbon Madagascar",
-    "image": "./images/vanilla-bourbon-madagascar.jpg"
+    "image": "vanilla-bourbon-madagascar.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "vanilla-cashmere",
     "name": "Vanilla Cashmere",
-    "image": "./images/vanilla-cashmere.jpg"
+    "image": "vanilla-cashmere.jpg",
+    "family": "woody",
+    "type": "base",
+    "families": [
+      "woody",
+      "gourmand"
+    ]
   },
   {
+    "slug": "vanilla-cedar",
     "name": "Vanilla Cedar",
-    "image": "./images/vanilla-cedar.jpg"
+    "image": "vanilla-cedar.jpg",
+    "family": "woody",
+    "type": "base",
+    "families": [
+      "woody",
+      "gourmand"
+    ]
   },
   {
-    "name": "Vanilla CO\u2082 LMR",
-    "image": "./images/vanilla-co\u2082-lmr.jpg"
+    "slug": "vanilla-co2-lmr",
+    "name": "Vanilla CO₂ LMR",
+    "image": "vanilla-co₂-lmr.jpg",
+    "family": "gourmand",
+    "type": "base",
+    "aliases": [
+      "vanilla co2 lmr"
+    ]
   },
   {
-    "name": "Vanilla CO\u2082 Madagascar Orpur",
-    "image": "./images/vanilla-co\u2082-madagascar-orpur.jpg"
+    "slug": "vanilla-co2-madagascar-orpur",
+    "name": "Vanilla CO₂ Madagascar Orpur",
+    "image": "vanilla-co₂-madagascar-orpur.jpg",
+    "family": "gourmand",
+    "type": "base",
+    "aliases": [
+      "vanilla co2 madagascar orpur"
+    ]
   },
   {
+    "slug": "vanilla-cream",
     "name": "Vanilla Cream",
-    "image": "./images/vanilla-cream.jpg"
+    "image": "vanilla-cream.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "vanilla-flower",
     "name": "Vanilla Flower",
-    "image": "./images/vanilla-flower.jpg"
+    "image": "vanilla-flower.jpg",
+    "family": "floral",
+    "type": "middle",
+    "families": [
+      "floral",
+      "gourmand"
+    ]
   },
   {
+    "slug": "vanilla-infusion-and-absolute",
     "name": "Vanilla Infusion & Absolute",
-    "image": "./images/vanilla-infusion-_-absolute.jpg"
+    "image": "vanilla-infusion-_-absolute.jpg",
+    "family": "gourmand",
+    "type": "base",
+    "aliases": [
+      "vanilla infusion and absolute"
+    ]
   },
   {
+    "slug": "vanilla-orchid",
     "name": "Vanilla Orchid",
-    "image": "./images/vanilla-orchid.jpg"
+    "image": "vanilla-orchid.jpg",
+    "family": "floral",
+    "type": "middle",
+    "families": [
+      "floral",
+      "gourmand"
+    ]
   },
   {
+    "slug": "vanilla-praline",
     "name": "Vanilla Praline",
-    "image": "./images/vanilla-praline.jpg"
+    "image": "vanilla-praline.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "vanilla-sugar",
     "name": "Vanilla Sugar",
-    "image": "./images/vanilla-sugar.jpg"
+    "image": "vanilla-sugar.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "velvet-jasmine-accord",
     "name": "Velvet Jasmine Accord",
-    "image": "./images/velvet-jasmine-accord.jpg"
+    "image": "velvet-jasmine-accord.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "velvet-rose",
     "name": "Velvet Rose",
-    "image": "./images/velvet-rose.jpg"
+    "image": "velvet-rose.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "velvety-iris",
     "name": "Velvety Iris",
-    "image": "./images/velvety-iris.jpg"
+    "image": "velvety-iris.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "verbena",
     "name": "Verbena",
-    "image": "./images/verbena.jpg"
+    "image": "verbena.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "vermouth",
     "name": "Vermouth",
-    "image": "./images/vermouth.jpg"
+    "image": "vermouth.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "vetiver",
     "name": "Vetiver",
-    "image": "./images/vetiver.jpg"
+    "image": "vetiver.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "vetiver-bourbon",
     "name": "Vetiver Bourbon",
-    "image": "./images/vetiver-bourbon.jpg"
+    "image": "vetiver-bourbon.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "vetiver-concentrate",
     "name": "Vetiver Concentrate",
-    "image": "./images/vetiver-concentrate.jpg"
+    "image": "vetiver-concentrate.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "vetiver-essence",
     "name": "Vetiver Essence",
-    "image": "./images/vetiver-essence.jpg"
+    "image": "vetiver-essence.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "vetyver",
     "name": "Vetyver",
-    "image": "./images/vetyver.jpg"
+    "image": "vetyver.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "vibrant-bergamot",
     "name": "Vibrant Bergamot",
-    "image": "./images/vibrant-bergamot.jpg"
+    "image": "vibrant-bergamot.jpg",
+    "family": "citrus",
+    "type": "top"
   },
   {
+    "slug": "vineyard-peach",
     "name": "Vineyard Peach",
-    "image": "./images/vineyard-peach.jpg"
+    "image": "vineyard-peach.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "violet-blossom",
     "name": "Violet Blossom",
-    "image": "./images/violet-blossom.jpg"
+    "image": "violet-blossom.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "violet-flower",
     "name": "Violet Flower",
-    "image": "./images/violet-flower.jpg"
+    "image": "violet-flower.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "violet-leaf",
     "name": "Violet Leaf",
-    "image": "./images/violet-leaf.jpg"
+    "image": "violet-leaf.jpg",
+    "family": "floral",
+    "type": "top",
+    "families": [
+      "floral",
+      "green"
+    ]
   },
   {
+    "slug": "violet-leaves",
     "name": "Violet Leaves",
-    "image": "./images/violet-leaves.jpg"
+    "image": "violet-leaves.jpg",
+    "family": "floral",
+    "type": "top",
+    "families": [
+      "floral",
+      "green"
+    ]
   },
   {
+    "slug": "virginia-cedar",
     "name": "Virginia Cedar",
-    "image": "./images/virginia-cedar.jpg"
+    "image": "virginia-cedar.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "walnut-milk-accord",
     "name": "Walnut Milk Accord",
-    "image": "./images/walnut-milk-accord.jpg"
+    "image": "walnut-milk-accord.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "warm-hinoki-wood",
     "name": "Warm Hinoki Wood",
-    "image": "./images/warm-hinoki-wood.jpg"
+    "image": "warm-hinoki-wood.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "warm-lychee",
     "name": "Warm Lychee",
-    "image": "./images/warm-lychee.jpg"
+    "image": "warm-lychee.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "warm-oakmoss",
     "name": "Warm Oakmoss",
-    "image": "./images/warm-oakmoss.jpg"
+    "image": "warm-oakmoss.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "warm-oud",
     "name": "Warm Oud",
-    "image": "./images/warm-oud.jpg"
+    "image": "warm-oud.jpg",
+    "family": "woody",
+    "type": "base",
+    "families": [
+      "woody",
+      "smoky"
+    ]
   },
   {
+    "slug": "warm-santal",
     "name": "Warm Santal",
-    "image": "./images/warm-santal.jpg"
+    "image": "warm-santal.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "warm-vanilla",
     "name": "Warm Vanilla",
-    "image": "./images/warm-vanilla.jpg"
+    "image": "warm-vanilla.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "warmed-cardamom",
     "name": "Warmed Cardamom",
-    "image": "./images/warmed-cardamom.jpg"
+    "image": "warmed-cardamom.jpg",
+    "family": "spicy",
+    "type": "middle"
   },
   {
+    "slug": "water",
     "name": "Water",
-    "image": "./images/water.jpg"
+    "image": "water.jpg",
+    "family": "aquatic",
+    "type": "top"
   },
   {
+    "slug": "water-accord",
     "name": "Water Accord",
-    "image": "./images/water-accord.jpg"
+    "image": "water-accord.jpg",
+    "family": "aquatic",
+    "type": "top"
   },
   {
+    "slug": "water-lily",
     "name": "Water Lily",
-    "image": "./images/water-lily.jpg"
+    "image": "water-lily.jpg",
+    "family": "floral",
+    "type": "top",
+    "families": [
+      "floral",
+      "aquatic"
+    ]
   },
   {
+    "slug": "watery-aldehydes",
     "name": "Watery Aldehydes",
-    "image": "./images/watery-aldehydes.jpg"
+    "image": "watery-aldehydes.jpg",
+    "family": "aquatic",
+    "type": "top"
   },
   {
+    "slug": "watery-greens",
     "name": "Watery Greens",
-    "image": "./images/watery-greens.jpg"
+    "image": "watery-greens.jpg",
+    "family": "green",
+    "type": "top",
+    "families": [
+      "green",
+      "aquatic"
+    ]
   },
   {
+    "slug": "watery-pear",
     "name": "Watery Pear",
-    "image": "./images/watery-pear.jpg"
+    "image": "watery-pear.jpg",
+    "family": "fruity",
+    "type": "top",
+    "families": [
+      "fruity",
+      "aquatic"
+    ]
   },
   {
+    "slug": "wet-earth",
     "name": "Wet Earth",
-    "image": "./images/wet-earth.jpg"
+    "image": "wet-earth.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "wet-earth-accord",
     "name": "Wet Earth Accord",
-    "image": "./images/wet-earth-accord.jpg"
+    "image": "wet-earth-accord.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "whipped-chocolate",
     "name": "Whipped Chocolate",
-    "image": "./images/whipped-chocolate.jpg"
+    "image": "whipped-chocolate.jpg",
+    "family": "gourmand",
+    "type": "base"
   },
   {
+    "slug": "whipped-coconut",
     "name": "Whipped Coconut",
-    "image": "./images/whipped-coconut.jpg"
+    "image": "whipped-coconut.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "white-amber",
     "name": "White Amber",
-    "image": "./images/white-amber.jpg"
+    "image": "white-amber.jpg",
+    "family": "amber",
+    "type": "base"
   },
   {
+    "slug": "white-cedar",
     "name": "White Cedar",
-    "image": "./images/white-cedar.jpg"
+    "image": "white-cedar.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "white-floral",
     "name": "White Floral",
-    "image": "./images/white-floral.jpg"
+    "image": "white-floral.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "white-flower",
     "name": "White Flower",
-    "image": "./images/white-flower.jpg"
+    "image": "white-flower.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "white-incense",
     "name": "White Incense",
-    "image": "./images/white-incense.jpg"
+    "image": "white-incense.jpg",
+    "family": "smoky",
+    "type": "base"
   },
   {
+    "slug": "white-lavender-essence",
     "name": "White Lavender Essence",
-    "image": "./images/white-lavender-essence.jpg"
+    "image": "white-lavender-essence.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "white-leather",
     "name": "White Leather",
-    "image": "./images/white-leather.jpg"
+    "image": "white-leather.jpg",
+    "family": "smoky",
+    "type": "base"
   },
   {
+    "slug": "white-lily",
     "name": "White Lily",
-    "image": "./images/white-lily.jpg"
+    "image": "white-lily.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "white-pumpkin",
     "name": "White Pumpkin",
-    "image": "./images/white-pumpkin.jpg"
+    "image": "white-pumpkin.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "white-raspberry",
     "name": "White Raspberry",
-    "image": "./images/white-raspberry.jpg"
+    "image": "white-raspberry.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "white-star-jasmine",
     "name": "White Star Jasmine",
-    "image": "./images/white-star-jasmine.jpg"
+    "image": "white-star-jasmine.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "white-suede",
     "name": "White Suede",
-    "image": "./images/white-suede.jpg"
+    "image": "white-suede.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "wild-cherry",
     "name": "Wild Cherry",
-    "image": "./images/wild-cherry.jpg"
+    "image": "wild-cherry.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "wild-freesia",
     "name": "Wild Freesia",
-    "image": "./images/wild-freesia.jpg"
+    "image": "wild-freesia.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "wild-herbs",
     "name": "Wild Herbs",
-    "image": "./images/wild-herbs.jpg"
+    "image": "wild-herbs.jpg",
+    "family": "other",
+    "type": "other"
   },
   {
+    "slug": "wild-huckleberry",
     "name": "Wild Huckleberry",
-    "image": "./images/wild-huckleberry.jpg"
+    "image": "wild-huckleberry.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "wild-orchid",
     "name": "Wild Orchid",
-    "image": "./images/wild-orchid.jpg"
+    "image": "wild-orchid.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "wildflower-honey",
     "name": "Wildflower Honey",
-    "image": "./images/wildflower-honey.jpg"
+    "image": "wildflower-honey.jpg",
+    "family": "floral",
+    "type": "middle",
+    "families": [
+      "floral",
+      "gourmand"
+    ]
   },
   {
+    "slug": "william-pear",
     "name": "William Pear",
-    "image": "./images/william-pear.jpg"
+    "image": "william-pear.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "wind-bloom-jasmine",
     "name": "Wind Bloom Jasmine",
-    "image": "./images/wind-bloom-jasmine.jpg"
+    "image": "wind-bloom-jasmine.jpg",
+    "family": "floral",
+    "type": "middle"
   },
   {
+    "slug": "wood",
     "name": "Wood",
-    "image": "./images/wood.jpg"
+    "image": "wood.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "wood-leather",
     "name": "Wood Leather",
-    "image": "./images/wood-leather.jpg"
+    "image": "wood-leather.jpg",
+    "family": "woody",
+    "type": "base",
+    "families": [
+      "woody",
+      "smoky"
+    ]
   },
   {
+    "slug": "wormwood-oil",
     "name": "Wormwood Oil",
-    "image": "./images/wormwood-oil.jpg"
+    "image": "wormwood-oil.jpg",
+    "family": "woody",
+    "type": "base"
   },
   {
+    "slug": "worn-leather",
     "name": "Worn Leather",
-    "image": "./images/worn-leather.jpg"
+    "image": "worn-leather.jpg",
+    "family": "smoky",
+    "type": "base"
   },
   {
+    "slug": "yellow-mandarin",
     "name": "Yellow Mandarin",
-    "image": "./images/yellow-mandarin.jpg"
+    "image": "yellow-mandarin.jpg",
+    "family": "citrus",
+    "type": "top",
+    "families": [
+      "citrus",
+      "fruity"
+    ]
   },
   {
+    "slug": "yellow-plum",
     "name": "Yellow Plum",
-    "image": "./images/yellow-plum.jpg"
+    "image": "yellow-plum.jpg",
+    "family": "fruity",
+    "type": "middle"
   },
   {
+    "slug": "ylang-ylang",
     "name": "Ylang-Ylang",
-    "image": "./images/ylang-ylang.jpg"
+    "image": "ylang-ylang.jpg",
+    "family": "floral",
+    "type": "middle",
+    "aliases": [
+      "ylang ylang"
+    ]
   }
 ]
