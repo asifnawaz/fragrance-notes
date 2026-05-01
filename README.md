@@ -13,6 +13,8 @@ A comprehensive, developer-friendly library containing **540+ fragrance notes** 
 - **540+ Fragrance Notes**: A vast collection of scents from Absinthe to Ylang-Ylang.
 - **High-Quality Images**: Each note comes with a descriptive, high-resolution image.
 - **Rich Metadata Included**: Includes slugs, fragrance families, note types, aliases, tags, accords, and image URLs.
+- **Customer-Friendly Search**: Search by names, slugs, aliases, accents, families, and note types.
+- **TypeScript Ready**: Includes bundled type declarations for safer app integration.
 - **Compact Source Data**: The package keeps a lean canonical note dataset and hydrates integration-ready metadata at runtime.
 - **Easy Integration**: Simple API to retrieve notes by name or as a complete list.
 - **Lightweight**: Optimized for performance with minimal dependencies.
@@ -56,15 +58,16 @@ console.log(allNotes[0]);
   noteType: 'other',
   accords: ['Other'],
   tags: ['absinth', 'other', 'fragrance-note'],
-  description: 'Absinth is a other fragrance note with characteristics that fit Other.',
+  description: 'Absinth is a versatile fragrance note with other facets, commonly used as a supporting note in scent profiles.',
   image: './images/absinth.jpg',
   imagePath: '/path/to/project/node_modules/fragrance-notes/assets/images/absinth.jpg',
-  imageUrl: 'https://cdn.jsdelivr.net/gh/asifnawaz/fragrance-notes@v1.0.0/assets/images/absinth.jpg'
+  imageUrl: 'https://cdn.jsdelivr.net/gh/asifnawaz/fragrance-notes@v.../assets/images/absinth.jpg',
+  altText: 'Absinth fragrance note'
 }
 */
 ```
 
-The source `assets/notes.json` stores only compact canonical note fields such as `slug`, `name`, `image`, `family`, `families`, and `type`. The library derives integration-friendly fields like `fragranceFamily`, `accords`, `tags`, `description`, `imagePath`, and `imageUrl` at runtime.
+The source `assets/notes.json` stores only compact canonical note fields such as `slug`, `name`, `image`, `family`, `families`, and `type`. The library derives integration-friendly fields like `fragranceFamily`, `accords`, `tags`, `description`, `altText`, `imagePath`, and `imageUrl` at runtime.
 
 ### Find a Specific Note
 
@@ -81,16 +84,41 @@ if (tonkaBean) {
 }
 ```
 
+Lookup is accent-insensitive and alias-aware:
+
+```javascript
+const { getNoteByName, getNoteByAlias } = require('fragrance-notes');
+
+console.log(getNoteByName('creme de cassis')?.name); // Crème de Cassis
+console.log(getNoteByAlias('accord dragee')?.name); // Accord Dragée
+```
+
+### Search Notes
+
+```javascript
+const { searchNotes } = require('fragrance-notes');
+
+const results = searchNotes('rose', {
+  family: 'floral',
+  type: 'middle',
+  limit: 10
+});
+
+console.log(results.map(note => note.name));
+```
+
 ### Filter Notes by Family
 
 ```javascript
-const { getAllFamilies, getNotesByFamily } = require('fragrance-notes');
+const { getAllFamilies, getNotesByFamily, getNotesByType } = require('fragrance-notes');
 
 const families = getAllFamilies();
 const floralNotes = getNotesByFamily('floral');
+const topNotes = getNotesByType('top');
 
 console.log(families);
 console.log(floralNotes[0]);
+console.log(topNotes[0]);
 ```
 
 ### Find a Note by Slug
@@ -125,6 +153,22 @@ export default function NoteCard() {
 ```
 
 Add `cdn.jsdelivr.net` to your Next.js image remote patterns configuration.
+
+### API Reference
+
+| Export | Description |
+| --- | --- |
+| `getAllNotes()` | Returns all hydrated notes. |
+| `getNoteByName(name)` | Finds a note by name or alias, with accent-insensitive matching. |
+| `getNoteByAlias(alias)` | Finds a note by a configured alias. |
+| `getNoteBySlug(slug)` | Finds a note by slug. |
+| `searchNotes(query, options)` | Searches names, slugs, aliases, families, note types, and accords. Supports `family`, `type`, and `limit`. |
+| `getNotesByFamily(family)` | Returns notes for a fragrance family. |
+| `getNotesByType(type)` | Returns notes for a note type: `top`, `middle`, `base`, or `other`. |
+| `getAllFamilies()` | Returns sorted unique fragrance families. |
+| `getImageUrl(imagePath)` | Builds a jsDelivr image URL. |
+| `toPublicImagePath(imagePath)` | Normalizes an image path for CDN delivery. |
+| `FAMILIES` / `NOTE_TYPES` | Supported filter values. |
 
 ---
 

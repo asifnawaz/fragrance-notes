@@ -3,12 +3,16 @@
   "version": "1.2.0",
   "description": "A comprehensive collection of fragrance notes with high-quality images and metadata for perfume enthusiasts and developers.",
   "main": "src/index.js",
+  "types": "index.d.ts",
   "files": [
     "src",
-    "assets"
+    "assets",
+    "index.d.ts"
   ],
   "scripts": {
     "test": "jest",
+    "validate": "npm run validate:data",
+    "validate:data": "node scripts/validate-data.js",
     "semantic-release": "semantic-release"
   },
   "repository": {
