@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/asifnawaz/fragrance-notes/compare/v1.2.0...v1.3.0) (2026-05-01)
+
+
+### Features
+
+* improve fragrance note search ([2d8599e](https://github.com/asifnawaz/fragrance-notes/commit/2d8599e9eda71cfc02e0a939c6e64b702512a17d))
+
 # [1.2.0](https://github.com/asifnawaz/fragrance-notes/compare/v1.1.0...v1.2.0) (2026-03-08)
 
 
