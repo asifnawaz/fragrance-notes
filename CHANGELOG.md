@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/asifnawaz/fragrance-notes/compare/v1.3.0...v1.4.0) (2026-05-06)
+
+
+### Features
+
+* add support for transparent images and update related scripts ([4869249](https://github.com/asifnawaz/fragrance-notes/commit/48692490f582c97f09137918898210a46b1699cb))
+
 # [1.3.0](https://github.com/asifnawaz/fragrance-notes/compare/v1.2.0...v1.3.0) (2026-05-01)
 
 
