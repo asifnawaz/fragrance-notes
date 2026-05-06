@@ -7,3 +7,4 @@ yarn-error.log*
 .env
 *.zip
 .serena
+notes_full_src.json

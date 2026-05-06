@@ -10,6 +10,7 @@ const {
 
 const rootDir = path.join(__dirname, '..');
 const imagesDir = path.join(rootDir, 'assets', 'images');
+const transparentImagesDir = path.join(rootDir, 'assets', 'images-transparent');
 const errors = [];
 
 function addError(message) {
@@ -38,7 +39,11 @@ if (!Array.isArray(notes)) {
 }
 
 const imageFiles = new Set(fs.readdirSync(imagesDir));
+const transparentImageFiles = fs.existsSync(transparentImagesDir)
+  ? new Set(fs.readdirSync(transparentImagesDir))
+  : new Set();
 const referencedImages = new Set();
+const referencedTransparentImages = new Set();
 const slugs = new Set();
 const names = new Set();
 const lookupIndex = new Map();
@@ -118,8 +123,14 @@ notes.forEach((note, index) => {
     }
 
     referencedImages.add(note.image);
+    referencedTransparentImages.add(note.image.replace(/\.[^.]+$/, '.webp'));
     if (!imageFiles.has(note.image)) {
       addError(`${label} references missing image "${note.image}".`);
+    }
+
+    const transparentImage = note.image.replace(/\.[^.]+$/, '.webp');
+    if (!transparentImageFiles.has(transparentImage)) {
+      addError(`${label} references missing transparent image "${transparentImage}".`);
     }
   }
 
@@ -136,9 +147,31 @@ imageFiles.forEach(file => {
   }
 });
 
+transparentImageFiles.forEach(file => {
+  if (!referencedTransparentImages.has(file)) {
+    addError(`Transparent image "${file}" is not referenced by any note.`);
+  }
+});
+
 getAllNotes().forEach(note => {
-  if (!note.imageUrl || !note.imageUrl.includes('/assets/images/')) {
+  if (!note.imageUrl || !note.imageUrl.includes('/assets/images-transparent/')) {
     addError(`${note.slug} is missing a public imageUrl.`);
+  }
+
+  if (!note.imagePackagePath || !note.imagePackagePath.includes('/images-transparent/')) {
+    addError(`${note.slug} is missing an imagePackagePath.`);
+  }
+
+  if (!note.originalImageUrl || !note.originalImageUrl.includes('/assets/images/')) {
+    addError(`${note.slug} is missing a public originalImageUrl.`);
+  }
+
+  if (!note.originalImagePackagePath || !note.originalImagePackagePath.includes('/images/')) {
+    addError(`${note.slug} is missing an originalImagePackagePath.`);
+  }
+
+  if (!note.transparentImageUrl || !note.transparentImageUrl.includes('/assets/images-transparent/')) {
+    addError(`${note.slug} is missing a public transparentImageUrl.`);
   }
 
   if (!note.altText) {
@@ -152,4 +185,4 @@ if (errors.length > 0) {
   process.exit(1);
 }
 
-console.log(`Validated ${notes.length} notes and ${imageFiles.size} images.`);
+console.log(`Validated ${notes.length} notes, ${imageFiles.size} images, and ${transparentImageFiles.size} transparent images.`);
