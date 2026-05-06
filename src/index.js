@@ -7,6 +7,7 @@ const repositoryMatch = repositoryUrl.match(/github\.com[/:]([^/]+)\/([^/.]+)(?:
 const REPOSITORY_OWNER = repositoryMatch ? repositoryMatch[1] : 'asifnawaz';
 const REPOSITORY_NAME = repositoryMatch ? repositoryMatch[2] : 'fragrance-notes';
 const CDN_BASE_URL = `https://cdn.jsdelivr.net/gh/${REPOSITORY_OWNER}/${REPOSITORY_NAME}@v${packageJson.version}`;
+const PACKAGE_NAME = packageJson.name || 'fragrance-notes';
 
 const FAMILY_META = {
   amber: { label: 'Amber', colorHex: '#c98a2e', accords: ['Amber'] },
@@ -50,14 +51,50 @@ function toPublicImagePath(imagePath) {
   return `assets/images/${imagePath.replace(/^\.\/images\//, '').replace(/^images\//, '')}`;
 }
 
+function toPackageImagePath(imagePath, variant = 'original') {
+  if (variant === 'transparent') {
+    const imageFile = imagePathToRelativeFsPath(imagePath);
+    const transparentFile = imageFile.replace(/\.[^.]+$/, '.webp');
+
+    return `${PACKAGE_NAME}/images-transparent/${transparentFile}`;
+  }
+
+  return `${PACKAGE_NAME}/images/${imagePathToRelativeFsPath(imagePath)}`;
+}
+
+function toTransparentImagePath(imagePath) {
+  const imageFile = imagePathToRelativeFsPath(imagePath);
+  const transparentFile = imageFile.replace(/\.[^.]+$/, '.webp');
+
+  return `assets/images-transparent/${transparentFile}`;
+}
+
 function getImageUrl(imagePath) {
   return `${CDN_BASE_URL}/${toPublicImagePath(imagePath)}`;
+}
+
+function getTransparentImageUrl(imagePath) {
+  return `${CDN_BASE_URL}/${toTransparentImagePath(imagePath)}`;
 }
 
 function withImageMetadata(note) {
   const fragranceFamilies = Array.isArray(note.families) && note.families.length > 0 ? note.families : [note.family];
   const primaryFamilyMeta = FAMILY_META[note.family] || FAMILY_META.other;
   const noteTypeMeta = NOTE_TYPE_META[note.type] || NOTE_TYPE_META.other;
+  const originalImage = `./images/${note.image}`;
+  const originalImagePath = path.join(__dirname, '..', 'assets', 'images', imagePathToRelativeFsPath(note.image));
+  const originalImageUrl = getImageUrl(note.image);
+  const originalImagePackagePath = toPackageImagePath(note.image, 'original');
+  const transparentImage = `./images-transparent/${imagePathToRelativeFsPath(note.image).replace(/\.[^.]+$/, '.webp')}`;
+  const transparentImagePath = path.join(
+    __dirname,
+    '..',
+    'assets',
+    'images-transparent',
+    imagePathToRelativeFsPath(note.image).replace(/\.[^.]+$/, '.webp')
+  );
+  const transparentImageUrl = getTransparentImageUrl(note.image);
+  const imagePackagePath = toPackageImagePath(note.image, 'transparent');
   const accords = Array.from(new Set(fragranceFamilies.flatMap(family => {
     const familyMeta = FAMILY_META[family] || FAMILY_META.other;
     return familyMeta.accords;
@@ -71,7 +108,7 @@ function withImageMetadata(note) {
 
   return {
     ...note,
-    image: `./images/${note.image}`,
+    image: transparentImage,
     fragranceFamily: note.family,
     fragranceFamilies,
     fragranceFamilyLabel: primaryFamilyMeta.label,
@@ -84,8 +121,30 @@ function withImageMetadata(note) {
     tags,
     colorHex: primaryFamilyMeta.colorHex,
     altText: `${note.name} fragrance note`,
-    imagePath: path.join(__dirname, '..', 'assets', 'images', imagePathToRelativeFsPath(note.image)),
-    imageUrl: getImageUrl(note.image)
+    imagePath: transparentImagePath,
+    imageUrl: transparentImageUrl,
+    imagePackagePath,
+    originalImage,
+    originalImagePath,
+    originalImageUrl,
+    originalImagePackagePath,
+    transparentImage,
+    transparentImagePath,
+    transparentImageUrl,
+    imageVariants: {
+      original: {
+        format: 'jpg',
+        image: originalImage,
+        imagePath: originalImagePath,
+        imageUrl: originalImageUrl
+      },
+      transparent: {
+        format: 'webp',
+        image: transparentImage,
+        imagePath: transparentImagePath,
+        imageUrl: transparentImageUrl
+      }
+    }
   };
 }
 
@@ -267,6 +326,7 @@ module.exports = {
   getAllFamilies,
   getAllNotes,
   getImageUrl,
+  getTransparentImageUrl,
   getNoteByAlias,
   getNotesByFamily,
   getNotesByType,
@@ -275,5 +335,6 @@ module.exports = {
   normalizeSearchText,
   searchNotes,
   toPublicImagePath,
+  toTransparentImagePath,
   notes
 };

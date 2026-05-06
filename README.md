@@ -12,6 +12,7 @@ A comprehensive, developer-friendly library containing **540+ fragrance notes** 
 
 - **540+ Fragrance Notes**: A vast collection of scents from Absinthe to Ylang-Ylang.
 - **High-Quality Images**: Each note comes with a descriptive, high-resolution image.
+- **Transparent Image Variants**: Each note includes a transparent-background WebP alongside the original JPG.
 - **Rich Metadata Included**: Includes slugs, fragrance families, note types, aliases, tags, accords, and image URLs.
 - **Customer-Friendly Search**: Search by names, slugs, aliases, accents, families, and note types.
 - **TypeScript Ready**: Includes bundled type declarations for safer app integration.
@@ -59,15 +60,47 @@ console.log(allNotes[0]);
   accords: ['Other'],
   tags: ['absinth', 'other', 'fragrance-note'],
   description: 'Absinth is a versatile fragrance note with other facets, commonly used as a supporting note in scent profiles.',
-  image: './images/absinth.jpg',
-  imagePath: '/path/to/project/node_modules/fragrance-notes/assets/images/absinth.jpg',
-  imageUrl: 'https://cdn.jsdelivr.net/gh/asifnawaz/fragrance-notes@v.../assets/images/absinth.jpg',
+  image: './images-transparent/absinth.webp',
+  imagePath: '/path/to/project/node_modules/fragrance-notes/assets/images-transparent/absinth.webp',
+  imageUrl: 'https://cdn.jsdelivr.net/gh/asifnawaz/fragrance-notes@v.../assets/images-transparent/absinth.webp',
+  imagePackagePath: 'fragrance-notes/images-transparent/absinth.webp',
+  originalImage: './images/absinth.jpg',
+  originalImagePath: '/path/to/project/node_modules/fragrance-notes/assets/images/absinth.jpg',
+  originalImageUrl: 'https://cdn.jsdelivr.net/gh/asifnawaz/fragrance-notes@v.../assets/images/absinth.jpg',
+  originalImagePackagePath: 'fragrance-notes/images/absinth.jpg',
+  transparentImage: './images-transparent/absinth.webp',
+  transparentImagePath: '/path/to/project/node_modules/fragrance-notes/assets/images-transparent/absinth.webp',
+  transparentImageUrl: 'https://cdn.jsdelivr.net/gh/asifnawaz/fragrance-notes@v.../assets/images-transparent/absinth.webp',
   altText: 'Absinth fragrance note'
 }
 */
 ```
 
 The source `assets/notes.json` stores only compact canonical note fields such as `slug`, `name`, `image`, `family`, `families`, and `type`. The library derives integration-friendly fields like `fragranceFamily`, `accords`, `tags`, `description`, `altText`, `imagePath`, and `imageUrl` at runtime.
+
+Use `imageUrl` for the default transparent WebP variant. Use `originalImageUrl` when you specifically need the original JPG on a white background.
+
+### Loading Images Locally
+
+The package exports image subpaths so apps can load bundled package assets without jsDelivr or manual copying.
+
+In Node.js/server runtimes, resolve the asset file directly:
+
+```javascript
+const { getNoteBySlug } = require('fragrance-notes');
+
+const note = getNoteBySlug('cherry');
+const imageFile = require.resolve(note.imagePackagePath);
+```
+
+In bundler-based apps, import the package asset and let the bundler emit the file:
+
+```javascript
+import cherryImage from 'fragrance-notes/images-transparent/cherry.webp';
+import cherryOriginal from 'fragrance-notes/images/cherry.jpg';
+```
+
+For dynamic note lists in browser apps, use `imageUrl` for CDN delivery or configure your framework to serve/copy package assets at build time; browsers cannot request files directly from `node_modules`.
 
 ### Find a Specific Note
 
@@ -130,7 +163,7 @@ const note = getNoteBySlug('african-neroli');
 console.log(note?.aliases);
 ```
 
-### Next.js Example
+### Next.js CDN Example
 
 Use the returned `imageUrl` with `next/image` instead of loading files from `node_modules` directly.
 
@@ -166,8 +199,10 @@ Add `cdn.jsdelivr.net` to your Next.js image remote patterns configuration.
 | `getNotesByFamily(family)` | Returns notes for a fragrance family. |
 | `getNotesByType(type)` | Returns notes for a note type: `top`, `middle`, `base`, or `other`. |
 | `getAllFamilies()` | Returns sorted unique fragrance families. |
-| `getImageUrl(imagePath)` | Builds a jsDelivr image URL. |
+| `getImageUrl(imagePath)` | Builds a jsDelivr original JPG image URL. |
+| `getTransparentImageUrl(imagePath)` | Builds a jsDelivr transparent WebP image URL. |
 | `toPublicImagePath(imagePath)` | Normalizes an image path for CDN delivery. |
+| `toTransparentImagePath(imagePath)` | Normalizes a transparent WebP image path for CDN delivery. |
 | `FAMILIES` / `NOTE_TYPES` | Supported filter values. |
 
 ---
@@ -178,6 +213,7 @@ Add `cdn.jsdelivr.net` to your Next.js image remote patterns configuration.
 fragrance-notes/
 ├── assets/
 │   ├── images/       # 540+ JPG images of fragrance notes
+│   ├── images-transparent/ # Transparent-background WebP variants
 │   └── notes.json    # Metadata for all notes
 ├── src/
 │   └── index.js      # Main library entry point
@@ -191,6 +227,16 @@ fragrance-notes/
 ## 🛠️ Development & Contributing
 
 This project uses **Semantic Release** for automated versioning and package publishing.
+
+Transparent image assets are generated from a local source map using green-matte source transforms and a soft chroma-key/despill pass for `#008000`:
+
+```bash
+npm run images:transparent
+```
+
+Use `npm run images:transparent -- --force` to regenerate existing transparent WebP files after changing source images or background-removal settings.
+
+Use `npm run images:transparent -- --key=exact --force` to remove only exact `#008000` pixels. Exact mode preserves every non-exact antialiasing pixel, so green edge fringe can remain.
 
 ### Commit Message Format
 

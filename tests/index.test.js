@@ -6,6 +6,7 @@ const {
   getAllFamilies,
   getAllNotes,
   getImageUrl,
+  getTransparentImageUrl,
   getNoteByAlias,
   getNotesByFamily,
   getNotesByType,
@@ -14,7 +15,8 @@ const {
   normalizeSearchText,
   notes,
   searchNotes,
-  toPublicImagePath
+  toPublicImagePath,
+  toTransparentImagePath
 } = require('../src/index');
 
 describe('Fragrance Notes Library', () => {
@@ -30,6 +32,13 @@ describe('Fragrance Notes Library', () => {
     const allNotes = getAllNotes();
     expect(allNotes[0]).toHaveProperty('imagePath');
     expect(allNotes[0]).toHaveProperty('imageUrl');
+    expect(allNotes[0]).toHaveProperty('imagePackagePath');
+    expect(allNotes[0]).toHaveProperty('originalImagePath');
+    expect(allNotes[0]).toHaveProperty('originalImageUrl');
+    expect(allNotes[0]).toHaveProperty('originalImagePackagePath');
+    expect(allNotes[0]).toHaveProperty('transparentImagePath');
+    expect(allNotes[0]).toHaveProperty('transparentImageUrl');
+    expect(allNotes[0]).toHaveProperty('imageVariants');
     expect(allNotes[0]).toHaveProperty('slug');
     expect(allNotes[0]).toHaveProperty('fragranceFamily');
     expect(allNotes[0]).toHaveProperty('fragranceFamilies');
@@ -43,8 +52,17 @@ describe('Fragrance Notes Library', () => {
     expect(allNotes[0]).toHaveProperty('noteTypeLabel');
     expect(typeof allNotes[0].imagePath).toBe('string');
     expect(typeof allNotes[0].imageUrl).toBe('string');
+    expect(typeof allNotes[0].imagePackagePath).toBe('string');
+    expect(typeof allNotes[0].originalImagePath).toBe('string');
+    expect(typeof allNotes[0].originalImageUrl).toBe('string');
+    expect(typeof allNotes[0].originalImagePackagePath).toBe('string');
+    expect(typeof allNotes[0].transparentImagePath).toBe('string');
+    expect(typeof allNotes[0].transparentImageUrl).toBe('string');
     expect(typeof allNotes[0].altText).toBe('string');
     expect(allNotes[0].imageUrl.startsWith('https://cdn.jsdelivr.net/gh/')).toBe(true);
+    expect(allNotes[0].transparentImageUrl.startsWith('https://cdn.jsdelivr.net/gh/')).toBe(true);
+    expect(allNotes[0].imageVariants.original.format).toBe('jpg');
+    expect(allNotes[0].imageVariants.transparent.format).toBe('webp');
     expect(Array.isArray(allNotes[0].fragranceFamilies)).toBe(true);
     expect(Array.isArray(allNotes[0].fragranceFamilyLabels)).toBe(true);
   });
@@ -57,8 +75,16 @@ describe('Fragrance Notes Library', () => {
     expect(toPublicImagePath('./images/absinth.jpg')).toBe('assets/images/absinth.jpg');
   });
 
+  test('toTransparentImagePath should normalize transparent asset paths for CDN delivery', () => {
+    expect(toTransparentImagePath('./images/absinth.jpg')).toBe('assets/images-transparent/absinth.webp');
+  });
+
   test('getImageUrl should build a full public URL for an image path', () => {
     expect(getImageUrl('absinth.jpg')).toBe(`${CDN_BASE_URL}/assets/images/absinth.jpg`);
+  });
+
+  test('getTransparentImageUrl should build a full public URL for a transparent image path', () => {
+    expect(getTransparentImageUrl('absinth.jpg')).toBe(`${CDN_BASE_URL}/assets/images-transparent/absinth.webp`);
   });
 
   test('getNoteByName should find a note by name (case-insensitive)', () => {
@@ -69,8 +95,17 @@ describe('Fragrance Notes Library', () => {
     expect(note.fragranceFamily).toBe('other');
     expect(note.noteType).toBe('other');
     expect(note.accords).toEqual(['Other']);
-    expect(note.imageUrl).toBe(`${CDN_BASE_URL}/assets/images/absinth.jpg`);
-    expect(note.imagePath).toBe(path.join(__dirname, '..', 'assets', 'images', 'absinth.jpg'));
+    expect(note.image).toBe('./images-transparent/absinth.webp');
+    expect(note.imageUrl).toBe(`${CDN_BASE_URL}/assets/images-transparent/absinth.webp`);
+    expect(note.imagePath).toBe(path.join(__dirname, '..', 'assets', 'images-transparent', 'absinth.webp'));
+    expect(note.imagePackagePath).toBe('fragrance-notes/images-transparent/absinth.webp');
+    expect(note.originalImage).toBe('./images/absinth.jpg');
+    expect(note.originalImageUrl).toBe(`${CDN_BASE_URL}/assets/images/absinth.jpg`);
+    expect(note.originalImagePath).toBe(path.join(__dirname, '..', 'assets', 'images', 'absinth.jpg'));
+    expect(note.originalImagePackagePath).toBe('fragrance-notes/images/absinth.jpg');
+    expect(note.transparentImage).toBe('./images-transparent/absinth.webp');
+    expect(note.transparentImageUrl).toBe(`${CDN_BASE_URL}/assets/images-transparent/absinth.webp`);
+    expect(note.transparentImagePath).toBe(path.join(__dirname, '..', 'assets', 'images-transparent', 'absinth.webp'));
 
     const lowercaseNote = getNoteByName('absinth');
     expect(lowercaseNote).not.toBeNull();
@@ -161,8 +196,12 @@ describe('Fragrance Notes Library', () => {
   test('all notes should expose jsDelivr-backed public image URLs', () => {
     const allNotes = getAllNotes();
     allNotes.forEach(note => {
-      expect(note.imageUrl).toContain('/assets/images/');
-      expect(note.imageUrl.endsWith('.jpg')).toBe(true);
+      expect(note.imageUrl).toContain('/assets/images-transparent/');
+      expect(note.imageUrl.endsWith('.webp')).toBe(true);
+      expect(note.originalImageUrl).toContain('/assets/images/');
+      expect(note.originalImageUrl.endsWith('.jpg')).toBe(true);
+      expect(note.transparentImageUrl).toContain('/assets/images-transparent/');
+      expect(note.transparentImageUrl.endsWith('.webp')).toBe(true);
     });
   });
 });

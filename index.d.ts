@@ -41,6 +41,25 @@ export interface FragranceNote extends SourceNote {
   altText: string;
   imagePath: string;
   imageUrl: string;
+  imagePackagePath: string;
+  originalImage: string;
+  originalImagePath: string;
+  originalImageUrl: string;
+  originalImagePackagePath: string;
+  transparentImage: string;
+  transparentImagePath: string;
+  transparentImageUrl: string;
+  imageVariants: {
+    original: ImageVariant;
+    transparent: ImageVariant;
+  };
+}
+
+export interface ImageVariant {
+  format: 'jpg' | 'webp';
+  image: string;
+  imagePath: string;
+  imageUrl: string;
 }
 
 export interface FamilyMeta {
@@ -69,6 +88,7 @@ export const notes: SourceNote[];
 export function getAllFamilies(): FragranceFamily[];
 export function getAllNotes(): FragranceNote[];
 export function getImageUrl(imagePath: string): string;
+export function getTransparentImageUrl(imagePath: string): string;
 export function getNoteByAlias(alias: string): FragranceNote | null;
 export function getNoteByName(name: string): FragranceNote | null;
 export function getNoteBySlug(slug: string): FragranceNote | null;
@@ -77,3 +97,4 @@ export function getNotesByType(type: NoteType | string): FragranceNote[];
 export function normalizeSearchText(value: unknown): string;
 export function searchNotes(query: string, options?: SearchOptions): FragranceNote[];
 export function toPublicImagePath(imagePath: string): string;
+export function toTransparentImagePath(imagePath: string): string;

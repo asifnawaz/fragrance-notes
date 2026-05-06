@@ -4,6 +4,17 @@
   "description": "A comprehensive collection of fragrance notes with high-quality images and metadata for perfume enthusiasts and developers.",
   "main": "src/index.js",
   "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./src/index.js",
+      "default": "./src/index.js"
+    },
+    "./images/*": "./assets/images/*",
+    "./images-transparent/*": "./assets/images-transparent/*",
+    "./assets/*": "./assets/*",
+    "./package.json": "./package.json"
+  },
   "files": [
     "src",
     "assets",
@@ -13,6 +24,7 @@
     "test": "jest",
     "validate": "npm run validate:data",
     "validate:data": "node scripts/validate-data.js",
+    "images:transparent": "node scripts/generate-transparent-images.js",
     "semantic-release": "semantic-release"
   },
   "repository": {
@@ -26,8 +38,7 @@
     "scent",
     "olfactory",
     "cologne",
-    "fragrance-library",
-    "scentbird"
+    "fragrance-library"
   ],
   "author": "Asif Nawaz <iamasifnawaz@hotmail.com>",
   "license": "MIT",
@@ -40,7 +51,8 @@
     "@semantic-release/npm": "^13.1.5",
     "@semantic-release/release-notes-generator": "^14.1.0",
     "jest": "^30.2.0",
-    "semantic-release": "^25.0.3"
+    "semantic-release": "^25.0.3",
+    "sharp": "^0.34.5"
   },
   "publishConfig": {
     "access": "public",
